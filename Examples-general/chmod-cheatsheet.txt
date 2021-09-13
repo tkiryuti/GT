@@ -1,0 +1,32 @@
+drwxrwxrwx
+
+d = Directory
+r = Read
+w = Write
+x = Execute
+
+chmod 777
+rwx|rwx|rwx
+Owner|Group|Others
+
+7	rwx
+6	rw-
+5	r-x
+4	r--
+3	-wx
+2	-w-
+1	--x
+0	---
+
+r = 4
+w = 2
+x = 1
+
+# Get the chmod numerical value for a file
+
+$ stat -c %a file.txt
+777  
+
+$ stat -c %A file.txt
+-rwxrwxrwx
+
