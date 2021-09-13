@@ -1,0 +1,51 @@
+---------------------------------------
+Begin PBS Prologue Fri Dec 11 11:10:41 EST 2020
+Job ID:     162726.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   test-GNU-parallel
+Queue:      embers
+End PBS Prologue Fri Dec 11 11:10:41 EST 2020
+---------------------------------------
+Number of cpus = 4
+Number of cores = 4
+
+NODES ASSIGNED:
+---------------------------------------
+atl1-1-02-005-22-r.pace.gatech.edu
+atl1-1-02-005-22-r.pace.gatech.edu
+atl1-1-02-005-22-r.pace.gatech.edu
+atl1-1-02-005-22-r.pace.gatech.edu
+atl1-1-02-017-14-r.pace.gatech.edu
+atl1-1-02-017-14-r.pace.gatech.edu
+atl1-1-02-017-14-r.pace.gatech.edu
+atl1-1-02-017-14-r.pace.gatech.edu
+
+___ Running a_function ___
+Running a_function on in1 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in2 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in3 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in4 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in5 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in6 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in7 | Fri Dec 11 11:10:49 EST 2020
+Running a_function on in8 | Fri Dec 11 11:10:49 EST 2020
+Successful parallelization
+
+___ Running fail_function ___
+0 | Fri Dec 11 11:11:00 EST 2020
+0 | Fri Dec 11 11:11:00 EST 2020
+parallel: This job failed:
+fail_function 3
+Error: one sub-job in GNU parallel failed
+---------------------------------------
+Begin PBS Epilogue Fri Dec 11 11:11:07 EST 2020
+Job ID:     162726.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   test-GNU-parallel
+Resources:  nodes=2:ppn=4,pmem=1gb,walltime=00:15:00,neednodes=2:ppn=4
+Rsrc Used:  cput=00:00:02,vmem=0kb,walltime=00:00:24,mem=1108kb,energy_used=0
+Queue:      embers
+Nodes:     
+atl1-1-02-005-22-r.pace.gatech.edu atl1-1-02-017-14-r.pace.gatech.edu
+End PBS Epilogue Fri Dec 11 11:11:07 EST 2020
+---------------------------------------

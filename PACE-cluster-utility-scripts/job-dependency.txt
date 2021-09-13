@@ -1,0 +1,5 @@
+## Job Dependencies or "Chain Jobs" is a way to submit jobs in sequence.
+## When a job is submitted and the Job ID is known, the next job can be requested.
+## http://docs.pace.gatech.edu/software/jobDepend/
+## Example:
+qsub -W depend=afterok:${jobid} script.pbs
