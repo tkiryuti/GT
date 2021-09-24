@@ -1,0 +1,63 @@
+---------------------------------------
+Begin PBS Prologue Thu Mar 25 14:00:49 EDT 2021
+Job ID:     1325636.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   3-reps-clusters
+Queue:      embers
+End PBS Prologue Thu Mar 25 14:00:49 EDT 2021
+---------------------------------------
+
+... creating tsv of clusters | Thu Mar 25 14:00:55 EDT 2021
+createtsv DB DB DB_clu Clusters.tsv 
+
+MMseqs Version:                 	12.113e3
+First sequence as representative	false
+Target column                   	1
+Add full header                 	false
+Sequence source                 	0
+Database output                 	false
+Threads                         	24
+Compressed                      	0
+Verbosity                       	3
+
+Time for merging to Clusters.tsv: 0h 0m 37s 709ms
+Time for processing: 0h 10m 23s 401ms
+
+... calculating space usage and compressing | Thu Mar 25 14:11:19 EDT 2021
+8.1G	Clusters.tsv
+1.3G	Clusters.tsv.gz
+
+... getting faa of representatives | Thu Mar 25 14:15:39 EDT 2021
+createsubdb DB_clu DB DB_clu_rep 
+
+MMseqs Version:	12.113e3
+Subdb mode	0
+Verbosity 	3
+
+Time for merging to DB_clu_rep: 0h 0m 0s 90ms
+Time for processing: 0h 0m 56s 385ms
+
+convert2fasta DB_clu_rep Reps.faa 
+
+MMseqs Version:	12.113e3
+Use header DB	false
+Verbosity    	3
+
+Start writing file to Reps.faa
+Time for processing: 0h 0m 29s 948ms
+
+... calculating space usage and compressing | Thu Mar 25 14:17:06 EDT 2021
+5.3G	Reps.faa
+2.4G	Reps.faa.gz
+---------------------------------------
+Begin PBS Epilogue Thu Mar 25 14:21:38 EDT 2021
+Job ID:     1325636.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   3-reps-clusters
+Resources:  nodes=1:ppn=1,walltime=02:00:00,pmem=7gb,neednodes=1:ppn=1
+Rsrc Used:  cput=00:16:13,vmem=21406016kb,walltime=00:20:49,mem=2737136kb,energy_used=0
+Queue:      embers
+Nodes:     
+atl1-1-02-010-16-r.pace.gatech.edu
+End PBS Epilogue Thu Mar 25 14:21:38 EDT 2021
+---------------------------------------

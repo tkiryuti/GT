@@ -1,0 +1,28 @@
+---------------------------------------
+Begin PBS Prologue Wed Mar 24 12:43:47 EDT 2021
+Job ID:     1297992.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   1-create-db
+Queue:      embers
+End PBS Prologue Wed Mar 24 12:43:47 EDT 2021
+---------------------------------------
+19G	DB
+4.0K	DB.dbtype
+8.8G	DB_h
+4.0K	DB_h.dbtype
+1.5G	DB_h.index
+1.5G	DB.index
+4.9G	DB.lookup
+420K	DB.source
+---------------------------------------
+Begin PBS Epilogue Wed Mar 24 13:01:18 EDT 2021
+Job ID:     1297992.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   1-create-db
+Resources:  nodes=1:ppn=1,walltime=08:00:00,pmem=7gb,neednodes=1:ppn=1
+Rsrc Used:  cput=00:09:39,vmem=12596412kb,walltime=00:17:31,mem=3133288kb,energy_used=0
+Queue:      embers
+Nodes:     
+atl1-1-02-010-30-l.pace.gatech.edu
+End PBS Epilogue Wed Mar 24 13:01:18 EDT 2021
+---------------------------------------

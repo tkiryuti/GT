@@ -1,0 +1,21 @@
+---------------------------------------
+Begin PBS Prologue Thu Mar 25 12:32:56 EDT 2021
+Job ID:     1322979.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   2-cluster
+Queue:      embers
+End PBS Prologue Thu Mar 25 12:32:56 EDT 2021
+---------------------------------------
+26G	tmp
+---------------------------------------
+Begin PBS Epilogue Thu Mar 25 13:44:21 EDT 2021
+Job ID:     1322979.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   2-cluster
+Resources:  nodes=1:ppn=24,walltime=08:00:00,pmem=7gb,neednodes=1:ppn=24
+Rsrc Used:  cput=18:43:42,vmem=49704192kb,walltime=01:11:25,mem=28157988kb,energy_used=0
+Queue:      embers
+Nodes:     
+atl1-1-02-005-1-r.pace.gatech.edu
+End PBS Epilogue Thu Mar 25 13:44:21 EDT 2021
+---------------------------------------
