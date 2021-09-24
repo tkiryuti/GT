@@ -1,0 +1,183 @@
+----------------------------------------
+Acinetobacter_baumannii | Thu Mar 25 18:34:32 EDT 2021
+Original number of genomes = 5374
+ANI-between-reps.tsv = 24693
+Number of 99-dereplication representatives = 224
+min = 87.5079
+max = 98.9993
+... plotting outupt: plots/Acinetobacter_baumannii.png
+
+----------------------------------------
+Campylobacter_coli | Thu Mar 25 18:34:40 EDT 2021
+Original number of genomes = 12725
+ANI-between-reps.tsv = 66810
+Number of 99-dereplication representatives = 373
+min = 83.0327
+max = 98.9994
+... plotting outupt: plots/Campylobacter_coli.png
+
+----------------------------------------
+Campylobacter_jejuni | Thu Mar 25 18:34:47 EDT 2021
+Original number of genomes = 31559
+ANI-between-reps.tsv = 110437
+Number of 99-dereplication representatives = 491
+min = 78.6999
+max = 98.9994
+... plotting outupt: plots/Campylobacter_jejuni.png
+
+----------------------------------------
+Clostridioides_difficile | Thu Mar 25 18:34:55 EDT 2021
+Original number of genomes = 3020
+ANI-between-reps.tsv = 731
+Number of 99-dereplication representatives = 42
+min = 87.1845
+max = 98.9988
+... plotting outupt: plots/Clostridioides_difficile.png
+
+----------------------------------------
+Enterococcus_faecalis | Thu Mar 25 18:35:02 EDT 2021
+Original number of genomes = 1975
+ANI-between-reps.tsv = 6670
+Number of 99-dereplication representatives = 116
+min = 96.6153
+max = 98.9985
+... plotting outupt: plots/Enterococcus_faecalis.png
+
+----------------------------------------
+Enterococcus_faecium | Thu Mar 25 18:35:09 EDT 2021
+Original number of genomes = 2324
+ANI-between-reps.tsv = 3654
+Number of 99-dereplication representatives = 86
+min = 93.4492
+max = 98.9971
+... plotting outupt: plots/Enterococcus_faecium.png
+
+----------------------------------------
+Escherichia_coli | Thu Mar 25 18:35:15 EDT 2021
+Original number of genomes = 86244
+ANI-between-reps.tsv = 318801
+Number of 99-dereplication representatives = 799
+min = 88.0021
+max = 98.9999
+... plotting outupt: plots/Escherichia_coli.png
+
+----------------------------------------
+Helicobacter_pylori | Thu Mar 25 18:35:23 EDT 2021
+Original number of genomes = 2048
+ANI-between-reps.tsv = 1056321
+Number of 99-dereplication representatives = 1454
+min = 90.3742
+max = 98.9807
+... plotting outupt: plots/Helicobacter_pylori.png
+
+----------------------------------------
+Klebsiella_pneumoniae | Thu Mar 25 18:35:32 EDT 2021
+Original number of genomes = 10722
+ANI-between-reps.tsv = 7873
+Number of 99-dereplication representatives = 126
+min = 93.2932
+max = 98.9999
+... plotting outupt: plots/Klebsiella_pneumoniae.png
+
+----------------------------------------
+Listeria_monocytogenes | Thu Mar 25 18:35:40 EDT 2021
+Original number of genomes = 23079
+ANI-between-reps.tsv = 64980
+Number of 99-dereplication representatives = 361
+min = 88.3865
+max = 98.9997
+... plotting outupt: plots/Listeria_monocytogenes.png
+
+----------------------------------------
+Mycobacterium_tuberculosis | Thu Mar 25 18:35:47 EDT 2021
+Original number of genomes = 6701
+ANI-between-reps.tsv = 0
+Number of 99-dereplication representatives = 0
+
+----------------------------------------
+Neisseria_meningitidis | Thu Mar 25 18:35:47 EDT 2021
+Original number of genomes = 1908
+ANI-between-reps.tsv = 11325
+Number of 99-dereplication representatives = 151
+min = 96.8109
+max = 98.9995
+... plotting outupt: plots/Neisseria_meningitidis.png
+
+----------------------------------------
+Pseudomonas_aeruginosa | Thu Mar 25 18:35:54 EDT 2021
+Original number of genomes = 5953
+ANI-between-reps.tsv = 6021
+Number of 99-dereplication representatives = 115
+min = 92.9372
+max = 98.9997
+... plotting outupt: plots/Pseudomonas_aeruginosa.png
+
+----------------------------------------
+Salmonella_enterica | Thu Mar 25 18:36:01 EDT 2021
+Original number of genomes = 267954
+ANI-between-reps.tsv = 369617
+Number of 99-dereplication representatives = 861
+min = 89.1092
+max = 98.9999
+... plotting outupt: plots/Salmonella_enterica.png
+
+----------------------------------------
+Shigella_flexneri | Thu Mar 25 18:36:10 EDT 2021
+Original number of genomes = 4869
+ANI-between-reps.tsv = 55
+Number of 99-dereplication representatives = 11
+min = 97.5005
+max = 98.9934
+... plotting outupt: plots/Shigella_flexneri.png
+
+----------------------------------------
+Shigella_sonnei | Thu Mar 25 18:36:17 EDT 2021
+Original number of genomes = 7492
+ANI-between-reps.tsv = 0
+Number of 99-dereplication representatives = 0
+
+----------------------------------------
+Staphylococcus_aureus | Thu Mar 25 18:36:17 EDT 2021
+Original number of genomes = 16650
+ANI-between-reps.tsv = 2550
+Number of 99-dereplication representatives = 72
+min = 88.2864
+max = 98.9983
+... plotting outupt: plots/Staphylococcus_aureus.png
+
+----------------------------------------
+Staphylococcus_epidermidis | Thu Mar 25 18:36:24 EDT 2021
+Original number of genomes = 2276
+ANI-between-reps.tsv = 810
+Number of 99-dereplication representatives = 41
+min = 95.9195
+max = 98.9996
+... plotting outupt: plots/Staphylococcus_epidermidis.png
+
+----------------------------------------
+Streptococcus_pneumoniae | Thu Mar 25 18:36:31 EDT 2021
+Original number of genomes = 22182
+ANI-between-reps.tsv = 100870
+Number of 99-dereplication representatives = 450
+min = 92.8341
+max = 98.9998
+... plotting outupt: plots/Streptococcus_pneumoniae.png
+
+----------------------------------------
+Streptococcus_pyogenes | Thu Mar 25 18:36:38 EDT 2021
+Original number of genomes = 2794
+ANI-between-reps.tsv = 7626
+Number of 99-dereplication representatives = 124
+min = 97.8255
+max = 98.999
+... plotting outupt: plots/Streptococcus_pyogenes.png
+
+----------------------------------------
+Streptococcus_suis | Thu Mar 25 18:36:45 EDT 2021
+Original number of genomes = 1931
+ANI-between-reps.tsv = 41682
+Number of 99-dereplication representatives = 290
+min = 80.2725
+max = 98.9993
+... plotting outupt: plots/Streptococcus_suis.png
+
