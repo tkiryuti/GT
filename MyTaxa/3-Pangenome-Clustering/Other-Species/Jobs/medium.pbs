@@ -1,0 +1,12 @@
+#PBS -N medium
+#PBS -l nodes=1:ppn=10
+#PBS -l walltime=20:00:00:00
+#PBS -l pmem=5gb
+#PBS -q biocluster-6
+#PBS -j oe
+#PBS -o outputs/medium.o
+#PBS -t 1-8
+
+cd "$PBS_O_WORKDIR"
+while read species; do bash medium-cluster-prep.sh "$species"; done < "inputs/medium-${PBS_ARRAYID}"
+

@@ -1,0 +1,10 @@
+#PBS -N small-bugfix
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=3:00:00
+#PBS -l pmem=3gb
+#PBS -q biocluster-6
+#PBS -j oe
+#PBS -o outputs/small-bugfix
+
+cd "$PBS_O_WORKDIR"
+while read species; do bash small-cluster-prep.sh "$species"; done < "inputs/small-bugfix"

@@ -1,0 +1,11 @@
+#PBS -N small
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=20:00:00:00
+#PBS -l pmem=5gb
+#PBS -q biocluster-6
+#PBS -j oe
+#PBS -o outputs/small.o
+#PBS -t 1-11
+
+cd "$PBS_O_WORKDIR"
+while read species; do bash small-cluster-prep.sh "$species"; done < "inputs/small-${PBS_ARRAYID}"

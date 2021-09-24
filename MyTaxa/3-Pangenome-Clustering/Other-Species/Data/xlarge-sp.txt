@@ -1,0 +1,8 @@
+Salmonella_enterica
+Escherichia_coli
+Campylobacter_jejuni
+Listeria_monocytogenes
+Streptococcus_pneumoniae
+Staphylococcus_aureus
+Campylobacter_coli
+Klebsiella_pneumoniae
