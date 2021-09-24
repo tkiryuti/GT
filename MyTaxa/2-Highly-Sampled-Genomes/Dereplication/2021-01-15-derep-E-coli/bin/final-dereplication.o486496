@@ -1,0 +1,1904 @@
+---------------------------------------
+Begin PBS Prologue Sat Jan 16 02:50:42 EST 2021
+Job ID:     486496.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   final-dereplication
+Queue:      inferno
+End PBS Prologue Sat Jan 16 02:50:42 EST 2021
+---------------------------------------
+Initializing variables | Sat Jan 16 02:50:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Working directory: /storage/home/hcoda1/7/tkiryutina3/MyTaxa/dereplication/2021-01-15-derep-E-coli
+Total number of genomes: 86244
+Starting first iteration | Sat Jan 16 02:50:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 02:50:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 02:50:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_001285165.1_8205_8_82 ___
+Starting FastANI | Sat Jan 16 02:50:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_001285165.1_8205_8_82
+DB_sizes:	341
+Remaining:	339
+%_clustered:	99.61
+Iteration completed | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902841715.1_B1737 ___
+Starting FastANI | Sat Jan 16 02:57:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902841715.1_B1737
+DB_sizes:	339
+Remaining:	338
+%_clustered:	99.61
+Iteration completed | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902848215.1_TA111 ___
+Starting FastANI | Sat Jan 16 03:03:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:09:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:09:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:09:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:09:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:09:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:09:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902848215.1_TA111
+DB_sizes:	338
+Remaining:	337
+%_clustered:	99.61
+Iteration completed | Sat Jan 16 03:09:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:09:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:09:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012433945.1_PDT000557668.2 ___
+Starting FastANI | Sat Jan 16 03:09:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012433945.1_PDT000557668.2
+DB_sizes:	337
+Remaining:	335
+%_clustered:	99.61
+Iteration completed | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_003292535.1_ASM329253v1 ___
+Starting FastANI | Sat Jan 16 03:15:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_003292535.1_ASM329253v1
+DB_sizes:	335
+Remaining:	333
+%_clustered:	99.61
+Iteration completed | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012856835.1_PDT000714113.1 ___
+Starting FastANI | Sat Jan 16 03:22:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:28:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:28:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:28:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:28:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:28:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:28:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012856835.1_PDT000714113.1
+DB_sizes:	333
+Remaining:	331
+%_clustered:	99.62
+Iteration completed | Sat Jan 16 03:28:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:28:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:28:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_009795505.1_ASM979550v1 ___
+Starting FastANI | Sat Jan 16 03:28:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_009795505.1_ASM979550v1
+DB_sizes:	331
+Remaining:	330
+%_clustered:	99.62
+Iteration completed | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002519725.1_ASM251972v1 ___
+Starting FastANI | Sat Jan 16 03:34:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:40:47 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:40:47 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_002519725.1_ASM251972v1
+DB_sizes:	330
+Remaining:	328
+%_clustered:	99.62
+Iteration completed | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012750275.1_PDT000108009.2 ___
+Starting FastANI | Sat Jan 16 03:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:47:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:47:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:47:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:47:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:47:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:47:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012750275.1_PDT000108009.2
+DB_sizes:	328
+Remaining:	327
+%_clustered:	99.62
+Iteration completed | Sat Jan 16 03:47:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:47:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:47:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013424515.1_ASM1342451v1 ___
+Starting FastANI | Sat Jan 16 03:47:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	8	GCA_013424515.1_ASM1342451v1
+DB_sizes:	327
+Remaining:	319
+%_clustered:	99.63
+Iteration completed | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002518005.1_ASM251800v1 ___
+Starting FastANI | Sat Jan 16 03:53:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_002518005.1_ASM251800v1
+DB_sizes:	319
+Remaining:	316
+%_clustered:	99.63
+Iteration completed | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_003290535.1_ASM329053v1 ___
+Starting FastANI | Sat Jan 16 03:59:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:05:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:05:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:05:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:05:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:05:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:05:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_003290535.1_ASM329053v1
+DB_sizes:	316
+Remaining:	314
+%_clustered:	99.64
+Iteration completed | Sat Jan 16 04:05:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:05:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:05:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012051765.1_PDT000412044.1 ___
+Starting FastANI | Sat Jan 16 04:05:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	7	GCA_012051765.1_PDT000412044.1
+DB_sizes:	314
+Remaining:	307
+%_clustered:	99.64
+Iteration completed | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002225715.1_ASM222571v1 ___
+Starting FastANI | Sat Jan 16 04:11:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:16:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:16:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:16:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:16:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:16:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:16:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_002225715.1_ASM222571v1
+DB_sizes:	307
+Remaining:	305
+%_clustered:	99.65
+Iteration completed | Sat Jan 16 04:16:45 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:16:45 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:16:45 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012334465.1_PDT000494523.1 ___
+Starting FastANI | Sat Jan 16 04:16:45 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:22:14 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:22:14 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012334465.1_PDT000494523.1
+DB_sizes:	305
+Remaining:	304
+%_clustered:	99.65
+Iteration completed | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012294005.1_PDT000517617.1 ___
+Starting FastANI | Sat Jan 16 04:22:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:27:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:27:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:27:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:27:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:27:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:27:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012294005.1_PDT000517617.1
+DB_sizes:	304
+Remaining:	302
+%_clustered:	99.65
+Iteration completed | Sat Jan 16 04:27:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:27:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:27:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012919205.1_PDT000718846.1 ___
+Starting FastANI | Sat Jan 16 04:27:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:33:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:33:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:33:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:33:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:33:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:33:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012919205.1_PDT000718846.1
+DB_sizes:	302
+Remaining:	301
+%_clustered:	99.65
+Iteration completed | Sat Jan 16 04:33:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:33:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:33:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012265745.1_PDT000281732.2 ___
+Starting FastANI | Sat Jan 16 04:33:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_012265745.1_PDT000281732.2
+DB_sizes:	301
+Remaining:	298
+%_clustered:	99.65
+Iteration completed | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902838255.1_H630 ___
+Starting FastANI | Sat Jan 16 04:38:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:43:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:43:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:43:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:43:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:43:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:43:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902838255.1_H630
+DB_sizes:	298
+Remaining:	297
+%_clustered:	99.66
+Iteration completed | Sat Jan 16 04:43:37 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:43:37 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:43:37 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012724775.1_PDT000105660.3 ___
+Starting FastANI | Sat Jan 16 04:43:37 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:48:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:48:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:48:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:48:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:48:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:48:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012724775.1_PDT000105660.3
+DB_sizes:	297
+Remaining:	295
+%_clustered:	99.66
+Iteration completed | Sat Jan 16 04:48:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:48:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:48:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012304085.1_PDT000541642.1 ___
+Starting FastANI | Sat Jan 16 04:48:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012304085.1_PDT000541642.1
+DB_sizes:	295
+Remaining:	293
+%_clustered:	99.66
+Iteration completed | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_001957225.1_ASM195722v1 ___
+Starting FastANI | Sat Jan 16 04:53:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_001957225.1_ASM195722v1
+DB_sizes:	293
+Remaining:	292
+%_clustered:	99.66
+Iteration completed | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012746355.1_PDT000129884.2 ___
+Starting FastANI | Sat Jan 16 04:58:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012746355.1_PDT000129884.2
+DB_sizes:	292
+Remaining:	290
+%_clustered:	99.66
+Iteration completed | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902843355.1_B721 ___
+Starting FastANI | Sat Jan 16 05:04:40 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_902843355.1_B721
+DB_sizes:	290
+Remaining:	288
+%_clustered:	99.67
+Iteration completed | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012248805.1_PDT000473258.1 ___
+Starting FastANI | Sat Jan 16 05:09:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:14:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:14:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:14:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:14:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:14:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:14:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012248805.1_PDT000473258.1
+DB_sizes:	288
+Remaining:	286
+%_clustered:	99.67
+Iteration completed | Sat Jan 16 05:14:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:14:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:14:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013357075.1_ASM1335707v1 ___
+Starting FastANI | Sat Jan 16 05:14:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:19:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:19:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:19:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:19:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:19:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:19:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_013357075.1_ASM1335707v1
+DB_sizes:	286
+Remaining:	284
+%_clustered:	99.67
+Iteration completed | Sat Jan 16 05:19:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:19:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:19:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012698165.1_PDT000687922.1 ___
+Starting FastANI | Sat Jan 16 05:19:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	7	GCA_012698165.1_PDT000687922.1
+DB_sizes:	284
+Remaining:	277
+%_clustered:	99.68
+Iteration completed | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_009905115.1_ASM990511v1 ___
+Starting FastANI | Sat Jan 16 05:25:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_009905115.1_ASM990511v1
+DB_sizes:	277
+Remaining:	275
+%_clustered:	99.68
+Iteration completed | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_001077955.1_ASM107795v1 ___
+Starting FastANI | Sat Jan 16 05:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_001077955.1_ASM107795v1
+DB_sizes:	275
+Remaining:	274
+%_clustered:	99.68
+Iteration completed | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_011893045.1_PDT000550032.2 ___
+Starting FastANI | Sat Jan 16 05:35:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:40:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:40:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_011893045.1_PDT000550032.2
+DB_sizes:	274
+Remaining:	273
+%_clustered:	99.68
+Iteration completed | Sat Jan 16 05:40:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:40:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:40:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_005046355.1_ASM504635v1 ___
+Starting FastANI | Sat Jan 16 05:40:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:45:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:45:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:45:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:45:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:45:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:45:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_005046355.1_ASM504635v1
+DB_sizes:	273
+Remaining:	272
+%_clustered:	99.68
+Iteration completed | Sat Jan 16 05:45:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:45:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:45:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_003794335.1_PDT000395188.1 ___
+Starting FastANI | Sat Jan 16 05:45:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:50:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:50:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:50:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:50:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:50:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:50:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_003794335.1_PDT000395188.1
+DB_sizes:	272
+Remaining:	271
+%_clustered:	99.69
+Iteration completed | Sat Jan 16 05:50:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:50:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:50:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902842065.1_E4712 ___
+Starting FastANI | Sat Jan 16 05:50:17 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902842065.1_E4712
+DB_sizes:	271
+Remaining:	270
+%_clustered:	99.69
+Iteration completed | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012320005.1_PDT000279468.2 ___
+Starting FastANI | Sat Jan 16 05:54:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012320005.1_PDT000279468.2
+DB_sizes:	270
+Remaining:	269
+%_clustered:	99.69
+Iteration completed | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012853715.1_PDT000714681.1 ___
+Starting FastANI | Sat Jan 16 05:59:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:04:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:04:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:04:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:04:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:04:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:04:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012853715.1_PDT000714681.1
+DB_sizes:	269
+Remaining:	268
+%_clustered:	99.69
+Iteration completed | Sat Jan 16 06:04:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:04:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:04:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012736795.1_PDT000109065.2 ___
+Starting FastANI | Sat Jan 16 06:04:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:08:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:08:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:08:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:08:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:08:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:08:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_012736795.1_PDT000109065.2
+DB_sizes:	268
+Remaining:	265
+%_clustered:	99.69
+Iteration completed | Sat Jan 16 06:08:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:08:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:08:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_004961055.1_ASM496105v1 ___
+Starting FastANI | Sat Jan 16 06:08:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_004961055.1_ASM496105v1
+DB_sizes:	265
+Remaining:	262
+%_clustered:	99.7
+Iteration completed | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012867005.1_PDT000713734.1 ___
+Starting FastANI | Sat Jan 16 06:13:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012867005.1_PDT000713734.1
+DB_sizes:	262
+Remaining:	260
+%_clustered:	99.7
+Iteration completed | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_011762955.1_ASM1176295v1 ___
+Starting FastANI | Sat Jan 16 06:17:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_011762955.1_ASM1176295v1
+DB_sizes:	260
+Remaining:	259
+%_clustered:	99.7
+Iteration completed | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012334425.1_PDT000494521.1 ___
+Starting FastANI | Sat Jan 16 06:22:43 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012334425.1_PDT000494521.1
+DB_sizes:	259
+Remaining:	258
+%_clustered:	99.7
+Iteration completed | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012501695.1_PDT000181848.2 ___
+Starting FastANI | Sat Jan 16 06:27:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:32:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:32:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:32:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:32:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:32:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:32:23 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012501695.1_PDT000181848.2
+DB_sizes:	258
+Remaining:	256
+%_clustered:	99.7
+Iteration completed | Sat Jan 16 06:32:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:32:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:32:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_005385565.1_ASM538556v1 ___
+Starting FastANI | Sat Jan 16 06:32:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:37:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:37:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:37:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:37:04 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:37:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:37:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_005385565.1_ASM538556v1
+DB_sizes:	256
+Remaining:	255
+%_clustered:	99.7
+Iteration completed | Sat Jan 16 06:37:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:37:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:37:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013618575.1_ASM1361857v1 ___
+Starting FastANI | Sat Jan 16 06:37:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013618575.1_ASM1361857v1
+DB_sizes:	255
+Remaining:	254
+%_clustered:	99.71
+Iteration completed | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012318685.1_PDT000544783.1 ___
+Starting FastANI | Sat Jan 16 06:41:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	9	GCA_012318685.1_PDT000544783.1
+DB_sizes:	254
+Remaining:	245
+%_clustered:	99.72
+Iteration completed | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002971095.1_ASM297109v1 ___
+Starting FastANI | Sat Jan 16 06:46:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:50:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:50:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:50:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:50:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:50:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:50:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	7	GCA_002971095.1_ASM297109v1
+DB_sizes:	245
+Remaining:	238
+%_clustered:	99.72
+Iteration completed | Sat Jan 16 06:50:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:50:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:50:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012872135.1_PDT000713452.1 ___
+Starting FastANI | Sat Jan 16 06:50:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012872135.1_PDT000713452.1
+DB_sizes:	238
+Remaining:	237
+%_clustered:	99.73
+Iteration completed | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012599245.1_PDT000645110.1 ___
+Starting FastANI | Sat Jan 16 06:54:10 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 06:58:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 06:58:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 06:58:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 06:58:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 06:58:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 06:58:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	4	GCA_012599245.1_PDT000645110.1
+DB_sizes:	237
+Remaining:	233
+%_clustered:	99.73
+Iteration completed | Sat Jan 16 06:58:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 06:58:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 06:58:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_009794115.1_ASM979411v1 ___
+Starting FastANI | Sat Jan 16 06:58:31 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_009794115.1_ASM979411v1
+DB_sizes:	233
+Remaining:	232
+%_clustered:	99.73
+Iteration completed | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012374395.1_PDT000509745.1 ___
+Starting FastANI | Sat Jan 16 07:02:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012374395.1_PDT000509745.1
+DB_sizes:	232
+Remaining:	230
+%_clustered:	99.73
+Iteration completed | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_005381925.1_ASM538192v1 ___
+Starting FastANI | Sat Jan 16 07:06:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_005381925.1_ASM538192v1
+DB_sizes:	230
+Remaining:	229
+%_clustered:	99.73
+Iteration completed | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902842565.1_POSS_33 ___
+Starting FastANI | Sat Jan 16 07:11:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902842565.1_POSS_33
+DB_sizes:	229
+Remaining:	228
+%_clustered:	99.74
+Iteration completed | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902841215.1_E9870 ___
+Starting FastANI | Sat Jan 16 07:15:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902841215.1_E9870
+DB_sizes:	228
+Remaining:	227
+%_clustered:	99.74
+Iteration completed | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012723875.1_PDT000107243.2 ___
+Starting FastANI | Sat Jan 16 07:18:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012723875.1_PDT000107243.2
+DB_sizes:	227
+Remaining:	226
+%_clustered:	99.74
+Iteration completed | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013122565.1_ASM1312256v1 ___
+Starting FastANI | Sat Jan 16 07:22:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013122565.1_ASM1312256v1
+DB_sizes:	226
+Remaining:	225
+%_clustered:	99.74
+Iteration completed | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_003292225.1_ASM329222v1 ___
+Starting FastANI | Sat Jan 16 07:26:48 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_003292225.1_ASM329222v1
+DB_sizes:	225
+Remaining:	224
+%_clustered:	99.74
+Iteration completed | Sat Jan 16 07:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012754355.1_PDT000129821.2 ___
+Starting FastANI | Sat Jan 16 07:30:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:34:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:34:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:34:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	10	GCA_012754355.1_PDT000129821.2
+DB_sizes:	224
+Remaining:	214
+%_clustered:	99.75
+Iteration completed | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002461255.1_ASM246125v1 ___
+Starting FastANI | Sat Jan 16 07:34:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	6	GCA_002461255.1_ASM246125v1
+DB_sizes:	214
+Remaining:	208
+%_clustered:	99.76
+Iteration completed | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_005038605.1_ASM503860v1 ___
+Starting FastANI | Sat Jan 16 07:38:27 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_005038605.1_ASM503860v1
+DB_sizes:	208
+Remaining:	207
+%_clustered:	99.76
+Iteration completed | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902838195.1_B1743 ___
+Starting FastANI | Sat Jan 16 07:41:41 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902838195.1_B1743
+DB_sizes:	207
+Remaining:	206
+%_clustered:	99.76
+Iteration completed | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012422945.1_PDT000238221.2 ___
+Starting FastANI | Sat Jan 16 07:45:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	5	GCA_012422945.1_PDT000238221.2
+DB_sizes:	206
+Remaining:	201
+%_clustered:	99.77
+Iteration completed | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:48:56 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:48:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013058925.1_PDT000359622.1 ___
+Starting FastANI | Sat Jan 16 07:48:57 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013058925.1_PDT000359622.1
+DB_sizes:	201
+Remaining:	200
+%_clustered:	99.77
+Iteration completed | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013053405.1_PDT000373300.1 ___
+Starting FastANI | Sat Jan 16 07:52:06 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013053405.1_PDT000373300.1
+DB_sizes:	200
+Remaining:	199
+%_clustered:	99.77
+Iteration completed | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002461885.1_ASM246188v1 ___
+Starting FastANI | Sat Jan 16 07:54:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_002461885.1_ASM246188v1
+DB_sizes:	199
+Remaining:	197
+%_clustered:	99.77
+Iteration completed | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012400145.1_PDT000583856.1 ___
+Starting FastANI | Sat Jan 16 07:58:22 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012400145.1_PDT000583856.1
+DB_sizes:	197
+Remaining:	195
+%_clustered:	99.77
+Iteration completed | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902844725.1_E5203 ___
+Starting FastANI | Sat Jan 16 08:02:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:05:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:05:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:05:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:05:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:05:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:05:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902844725.1_E5203
+DB_sizes:	195
+Remaining:	194
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:05:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:05:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:05:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012365905.1_PDT000557017.1 ___
+Starting FastANI | Sat Jan 16 08:05:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:08:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:08:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:08:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:08:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:08:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:08:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012365905.1_PDT000557017.1
+DB_sizes:	194
+Remaining:	193
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:08:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:08:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:08:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_010668985.1_ASM1066898v1 ___
+Starting FastANI | Sat Jan 16 08:08:55 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_010668985.1_ASM1066898v1
+DB_sizes:	193
+Remaining:	192
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012294705.1_PDT000510884.1 ___
+Starting FastANI | Sat Jan 16 08:12:16 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:15:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:15:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:15:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:15:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:15:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:15:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012294705.1_PDT000510884.1
+DB_sizes:	192
+Remaining:	191
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:15:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:15:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:15:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_004745245.1_ASM474524v1 ___
+Starting FastANI | Sat Jan 16 08:15:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:18:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:18:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:18:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:18:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:18:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:18:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_004745245.1_ASM474524v1
+DB_sizes:	191
+Remaining:	190
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:19:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:19:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:19:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013786785.1_ASM1378678v1 ___
+Starting FastANI | Sat Jan 16 08:19:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_013786785.1_ASM1378678v1
+DB_sizes:	190
+Remaining:	187
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_014134345.1_PDT000806181.1 ___
+Starting FastANI | Sat Jan 16 08:21:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_014134345.1_PDT000806181.1
+DB_sizes:	187
+Remaining:	186
+%_clustered:	99.78
+Iteration completed | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012353285.1_PDT000258375.2 ___
+Starting FastANI | Sat Jan 16 08:24:53 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012353285.1_PDT000258375.2
+DB_sizes:	186
+Remaining:	185
+%_clustered:	99.79
+Iteration completed | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012668945.1_PDT000137333.2 ___
+Starting FastANI | Sat Jan 16 08:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012668945.1_PDT000137333.2
+DB_sizes:	185
+Remaining:	184
+%_clustered:	99.79
+Iteration completed | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012379715.1_PDT000500749.1 ___
+Starting FastANI | Sat Jan 16 08:31:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012379715.1_PDT000500749.1
+DB_sizes:	184
+Remaining:	183
+%_clustered:	99.79
+Iteration completed | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_903932005.1_ROAR-19 ___
+Starting FastANI | Sat Jan 16 08:34:25 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_903932005.1_ROAR-19
+DB_sizes:	183
+Remaining:	182
+%_clustered:	99.79
+Iteration completed | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_007648315.1_ASM764831v1 ___
+Starting FastANI | Sat Jan 16 08:37:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:40:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:40:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:40:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:40:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:40:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:40:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	9	GCA_007648315.1_ASM764831v1
+DB_sizes:	182
+Remaining:	173
+%_clustered:	99.8
+Iteration completed | Sat Jan 16 08:40:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:40:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:40:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012458625.1_PDT000271621.2 ___
+Starting FastANI | Sat Jan 16 08:40:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	4	GCA_012458625.1_PDT000271621.2
+DB_sizes:	173
+Remaining:	169
+%_clustered:	99.8
+Iteration completed | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_014108905.1_ASM1410890v1 ___
+Starting FastANI | Sat Jan 16 08:43:54 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_014108905.1_ASM1410890v1
+DB_sizes:	169
+Remaining:	168
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012532675.1_PDT000619771.1 ___
+Starting FastANI | Sat Jan 16 08:47:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012532675.1_PDT000619771.1
+DB_sizes:	168
+Remaining:	167
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_004252765.1_PDT000343846.1 ___
+Starting FastANI | Sat Jan 16 08:50:12 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_004252765.1_PDT000343846.1
+DB_sizes:	167
+Remaining:	166
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012450865.1_PDT000600203.1 ___
+Starting FastANI | Sat Jan 16 08:52:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012450865.1_PDT000600203.1
+DB_sizes:	166
+Remaining:	164
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_014146945.1_PDT000806916.1 ___
+Starting FastANI | Sat Jan 16 08:55:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_014146945.1_PDT000806916.1
+DB_sizes:	164
+Remaining:	163
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012617125.1_PDT000626906.1 ___
+Starting FastANI | Sat Jan 16 08:58:38 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012617125.1_PDT000626906.1
+DB_sizes:	163
+Remaining:	162
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012400105.1_PDT000583886.1 ___
+Starting FastANI | Sat Jan 16 09:01:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012400105.1_PDT000583886.1
+DB_sizes:	162
+Remaining:	161
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013424615.1_ASM1342461v1 ___
+Starting FastANI | Sat Jan 16 09:04:26 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013424615.1_ASM1342461v1
+DB_sizes:	161
+Remaining:	160
+%_clustered:	99.81
+Iteration completed | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002326825.1_ASM232682v1 ___
+Starting FastANI | Sat Jan 16 09:07:05 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_002326825.1_ASM232682v1
+DB_sizes:	160
+Remaining:	157
+%_clustered:	99.82
+Iteration completed | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013112335.1_ASM1311233v1 ___
+Starting FastANI | Sat Jan 16 09:10:03 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:13:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:13:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:13:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:13:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:13:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:13:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013112335.1_ASM1311233v1
+DB_sizes:	157
+Remaining:	156
+%_clustered:	99.82
+Iteration completed | Sat Jan 16 09:13:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:13:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:13:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013898975.1_ASM1389897v1 ___
+Starting FastANI | Sat Jan 16 09:13:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_013898975.1_ASM1389897v1
+DB_sizes:	156
+Remaining:	154
+%_clustered:	99.82
+Iteration completed | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:15:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:15:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902503395.1_IBESS854 ___
+Starting FastANI | Sat Jan 16 09:15:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:18:34 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:18:34 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:18:34 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	109	GCA_902503395.1_IBESS854
+DB_sizes:	154
+Remaining:	45
+%_clustered:	99.95
+Iteration completed | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013709175.1_ASM1370917v1 ___
+Starting FastANI | Sat Jan 16 09:18:35 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013709175.1_ASM1370917v1
+DB_sizes:	45
+Remaining:	44
+%_clustered:	99.95
+Iteration completed | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013059285.1_PDT000360134.1 ___
+Starting FastANI | Sat Jan 16 09:19:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:20:18 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:20:18 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:20:18 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:20:18 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:20:18 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:20:18 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013059285.1_PDT000360134.1
+DB_sizes:	44
+Remaining:	43
+%_clustered:	99.95
+Iteration completed | Sat Jan 16 09:20:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:20:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:20:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002543795.1_ASM254379v1 ___
+Starting FastANI | Sat Jan 16 09:20:19 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	4	GCA_002543795.1_ASM254379v1
+DB_sizes:	43
+Remaining:	39
+%_clustered:	99.95
+Iteration completed | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012430545.1_PDT000587963.1 ___
+Starting FastANI | Sat Jan 16 09:21:09 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:21:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:21:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:21:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:21:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:21:49 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:21:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012430545.1_PDT000587963.1
+DB_sizes:	39
+Remaining:	38
+%_clustered:	99.96
+Iteration completed | Sat Jan 16 09:21:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:21:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:21:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902847005.1_B1317 ___
+Starting FastANI | Sat Jan 16 09:21:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:22:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:22:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:22:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:22:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:22:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:22:28 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_902847005.1_B1317
+DB_sizes:	38
+Remaining:	37
+%_clustered:	99.96
+Iteration completed | Sat Jan 16 09:22:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:22:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:22:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012915585.1_PDT000721345.1 ___
+Starting FastANI | Sat Jan 16 09:22:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:23:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:23:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_012915585.1_PDT000721345.1
+DB_sizes:	37
+Remaining:	34
+%_clustered:	99.96
+Iteration completed | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_000777235.1_ASM77723v1 ___
+Starting FastANI | Sat Jan 16 09:23:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_000777235.1_ASM77723v1
+DB_sizes:	34
+Remaining:	33
+%_clustered:	99.96
+Iteration completed | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_006383005.1_ASM638300v1 ___
+Starting FastANI | Sat Jan 16 09:23:36 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_006383005.1_ASM638300v1
+DB_sizes:	33
+Remaining:	32
+%_clustered:	99.96
+Iteration completed | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_000398885.1_Esch_coli_KTE33_V1 ___
+Starting FastANI | Sat Jan 16 09:24:07 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_000398885.1_Esch_coli_KTE33_V1
+DB_sizes:	32
+Remaining:	31
+%_clustered:	99.96
+Iteration completed | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:24:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:24:45 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013894035.1_ASM1389403v1 ___
+Starting FastANI | Sat Jan 16 09:24:45 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013894035.1_ASM1389403v1
+DB_sizes:	31
+Remaining:	30
+%_clustered:	99.97
+Iteration completed | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012532595.1_PDT000619772.1 ___
+Starting FastANI | Sat Jan 16 09:25:24 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012532595.1_PDT000619772.1
+DB_sizes:	30
+Remaining:	29
+%_clustered:	99.97
+Iteration completed | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_000459855.1_Esch_coli_KOEGE_71_186a_V1 ___
+Starting FastANI | Sat Jan 16 09:25:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_000459855.1_Esch_coli_KOEGE_71_186a_V1
+DB_sizes:	29
+Remaining:	28
+%_clustered:	99.97
+Iteration completed | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_002166365.1_ASM216636v1 ___
+Starting FastANI | Sat Jan 16 09:26:30 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:26:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:26:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:26:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Warning: empty .tsv file in fastANI-results with query: GCA_002166365.1_ASM216636v1
+Removed this genome path from the reference genomes input file: /storage/home/hcoda1/7/tkiryutina3/shared3/projects/MyTaxa/TypeMat_2020-08-17/Genomes/FTPs/nucleotide-genomes/Escherichia_coli/GCA_002166365.1_ASM216636v1_genomic.fna.gz
+__________________________________________
+... preparing inputs | Sat Jan 16 09:26:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:26:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_001265915.1_401210 ___
+Starting FastANI | Sat Jan 16 09:26:52 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:27:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:27:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:27:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:27:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:27:20 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:27:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_001265915.1_401210
+DB_sizes:	27
+Remaining:	26
+%_clustered:	99.97
+Iteration completed | Sat Jan 16 09:27:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:27:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:27:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013014405.1_PDT000430710.1 ___
+Starting FastANI | Sat Jan 16 09:27:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013014405.1_PDT000430710.1
+DB_sizes:	26
+Remaining:	25
+%_clustered:	99.97
+Iteration completed | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012363615.1_PDT000253420.2 ___
+Starting FastANI | Sat Jan 16 09:27:50 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012363615.1_PDT000253420.2
+DB_sizes:	25
+Remaining:	24
+%_clustered:	99.97
+Iteration completed | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_003322085.1_ASM332208v1 ___
+Starting FastANI | Sat Jan 16 09:28:15 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_003322085.1_ASM332208v1
+DB_sizes:	24
+Remaining:	21
+%_clustered:	99.98
+Iteration completed | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_902501805.1_IBESS943 ___
+Starting FastANI | Sat Jan 16 09:28:46 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	6	GCA_902501805.1_IBESS943
+DB_sizes:	21
+Remaining:	15
+%_clustered:	99.98
+Iteration completed | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012565045.1_PDT000157038.2 ___
+Starting FastANI | Sat Jan 16 09:29:11 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012565045.1_PDT000157038.2
+DB_sizes:	15
+Remaining:	14
+%_clustered:	99.98
+Iteration completed | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012613685.1_PDT000631955.1 ___
+Starting FastANI | Sat Jan 16 09:29:29 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_012613685.1_PDT000631955.1
+DB_sizes:	14
+Remaining:	12
+%_clustered:	99.99
+Iteration completed | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012853735.1_PDT000714684.1 ___
+Starting FastANI | Sat Jan 16 09:29:44 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012853735.1_PDT000714684.1
+DB_sizes:	12
+Remaining:	11
+%_clustered:	99.99
+Iteration completed | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_008726235.1_ASM872623v1 ___
+Starting FastANI | Sat Jan 16 09:29:59 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:30:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:30:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:30:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Warning: empty .tsv file in fastANI-results with query: GCA_008726235.1_ASM872623v1
+Removed this genome path from the reference genomes input file: /storage/home/hcoda1/7/tkiryutina3/shared3/projects/MyTaxa/TypeMat_2020-08-17/Genomes/FTPs/nucleotide-genomes/Escherichia_coli/GCA_008726235.1_ASM872623v1_genomic.fna.gz
+__________________________________________
+... preparing inputs | Sat Jan 16 09:30:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:30:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_004792895.1_ASM479289v1 ___
+Starting FastANI | Sat Jan 16 09:30:08 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_004792895.1_ASM479289v1
+DB_sizes:	10
+Remaining:	9
+%_clustered:	99.99
+Iteration completed | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013076385.1_PDT000271622.2 ___
+Starting FastANI | Sat Jan 16 09:30:21 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013076385.1_PDT000271622.2
+DB_sizes:	9
+Remaining:	8
+%_clustered:	99.99
+Iteration completed | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:30:32 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:30:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013354405.1_ASM1335440v1 ___
+Starting FastANI | Sat Jan 16 09:30:33 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_013354405.1_ASM1335440v1
+DB_sizes:	8
+Remaining:	7
+%_clustered:	99.99
+Iteration completed | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_000601195.1_ASM60119v1 ___
+Starting FastANI | Sat Jan 16 09:30:42 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	2	GCA_000601195.1_ASM60119v1
+DB_sizes:	7
+Remaining:	5
+%_clustered:	99.99
+Iteration completed | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_013817505.1_ASM1381750v1 ___
+Starting FastANI | Sat Jan 16 09:30:51 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	3	GCA_013817505.1_ASM1381750v1
+DB_sizes:	5
+Remaining:	2
+%_clustered:	100.0
+Iteration completed | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_012610745.1_PDT000637791.1 ___
+Starting FastANI | Sat Jan 16 09:30:58 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:31:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:31:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:31:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:31:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:31:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:31:00 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_012610745.1_PDT000637791.1
+DB_sizes:	2
+Remaining:	1
+%_clustered:	100.0
+Iteration completed | Sat Jan 16 09:31:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:31:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:31:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+___ GCA_009776055.1_ASM977605v1 ___
+Starting FastANI | Sat Jan 16 09:31:01 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed FastANI | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... checking success of FastANI run | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... processing FastANI results | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... creating clusters | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Cluster_size:	1	GCA_009776055.1_ASM977605v1
+DB_sizes:	1
+Remaining:	0
+%_clustered:	100.0
+Iteration completed | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+__________________________________________
+... preparing inputs | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+... defining variables for iteration | Sat Jan 16 09:31:02 EST 2021 | atl1-1-03-004-2-r.pace.gatech.edu
+Completed. There are no more database chunks to process. :)
+---------------------------------------
+Begin PBS Epilogue Sat Jan 16 09:31:02 EST 2021
+Job ID:     486496.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   final-dereplication
+Resources:  nodes=1:ppn=1,walltime=48:00:00,pmem=16gb,neednodes=1:ppn=1
+Rsrc Used:  cput=06:37:14,vmem=3934100kb,walltime=06:40:20,mem=3458696kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-004-2-r.pace.gatech.edu
+End PBS Epilogue Sat Jan 16 09:31:02 EST 2021
+---------------------------------------

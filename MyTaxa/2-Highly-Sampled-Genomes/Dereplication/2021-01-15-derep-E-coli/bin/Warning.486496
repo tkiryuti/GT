@@ -1,0 +1,4 @@
+Warning: empty .tsv file in fastANI-results with query: GCA_002166365.1_ASM216636v1
+Removed this genome path from the reference genomes input file: /storage/home/hcoda1/7/tkiryutina3/shared3/projects/MyTaxa/TypeMat_2020-08-17/Genomes/FTPs/nucleotide-genomes/Escherichia_coli/GCA_002166365.1_ASM216636v1_genomic.fna.gz
+Warning: empty .tsv file in fastANI-results with query: GCA_008726235.1_ASM872623v1
+Removed this genome path from the reference genomes input file: /storage/home/hcoda1/7/tkiryutina3/shared3/projects/MyTaxa/TypeMat_2020-08-17/Genomes/FTPs/nucleotide-genomes/Escherichia_coli/GCA_008726235.1_ASM872623v1_genomic.fna.gz

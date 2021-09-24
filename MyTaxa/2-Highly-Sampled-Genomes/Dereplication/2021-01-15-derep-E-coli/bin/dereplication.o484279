@@ -1,0 +1,138 @@
+---------------------------------------
+Begin PBS Prologue Fri Jan 15 17:08:36 EST 2021
+Job ID:     484279.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   dereplication
+Queue:      embers
+End PBS Prologue Fri Jan 15 17:08:36 EST 2021
+---------------------------------------
+Initializing variables | Fri Jan 15 17:08:38 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Launcher workdir: /storage/home/hcoda1/7/tkiryutina3/MyTaxa/dereplication/2021-01-15-derep-E-coli
+Starting first iteration | Fri Jan 15 17:08:39 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:08:39 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:08:39 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_000736735.1_ASM73673v1 ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:08:39 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:08:39 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:08:39 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Completed launcher | Fri Jan 15 17:09:19 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Fri Jan 15 17:09:19 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... processing FastANI-cluster results | Fri Jan 15 17:09:19 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... creating clusters | Fri Jan 15 17:09:19 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Fri Jan 15 17:09:19 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... collecting results to summarize this iteration | Fri Jan 15 17:09:19 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Cluster_size:	1	GCA_000736735.1_ASM73673v1
+DB_sizes:	20,21
+Remaining:	999
+%_clustered:	98.84
+Iteration completed | Fri Jan 15 17:09:20 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:09:20 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:09:20 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_001455035.2_EC22593v3 ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:09:20 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:09:20 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:09:20 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Completed launcher | Fri Jan 15 17:09:56 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Fri Jan 15 17:09:56 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... processing FastANI-cluster results | Fri Jan 15 17:09:56 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... creating clusters | Fri Jan 15 17:09:56 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Fri Jan 15 17:09:56 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... collecting results to summarize this iteration | Fri Jan 15 17:09:56 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Cluster_size:	360	GCA_001455035.2_EC22593v3
+DB_sizes:	20,21
+Remaining:	639
+%_clustered:	99.26
+Iteration completed | Fri Jan 15 17:09:57 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:09:57 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:09:57 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_012648965.1_PDT000672149.1 ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:09:57 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:09:57 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:09:57 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Completed launcher | Fri Jan 15 17:10:23 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Fri Jan 15 17:10:23 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... processing FastANI-cluster results | Fri Jan 15 17:10:23 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... creating clusters | Fri Jan 15 17:10:23 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Fri Jan 15 17:10:23 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... collecting results to summarize this iteration | Fri Jan 15 17:10:23 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Cluster_size:	25	GCA_012648965.1_PDT000672149.1
+DB_sizes:	13,14
+Remaining:	614
+%_clustered:	99.29
+Iteration completed | Fri Jan 15 17:10:24 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:10:24 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:10:24 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_003790525.1_ASM379052v1 ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:10:24 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:10:24 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:10:24 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Completed launcher | Fri Jan 15 17:10:48 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Fri Jan 15 17:10:48 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... processing FastANI-cluster results | Fri Jan 15 17:10:48 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... creating clusters | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... collecting results to summarize this iteration | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Cluster_size:	18	GCA_003790525.1_ASM379052v1
+DB_sizes:	12,13
+Remaining:	596
+%_clustered:	99.31
+Iteration completed | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_003010355.1_ASM301035v1 ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:10:49 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:10:50 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:10:50 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Completed launcher | Fri Jan 15 17:11:11 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Fri Jan 15 17:11:11 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... processing FastANI-cluster results | Fri Jan 15 17:11:11 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... creating clusters | Fri Jan 15 17:11:11 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Fri Jan 15 17:11:11 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... collecting results to summarize this iteration | Fri Jan 15 17:11:11 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Cluster_size:	33	GCA_003010355.1_ASM301035v1
+DB_sizes:	12,13
+Remaining:	563
+%_clustered:	99.35
+Iteration completed | Fri Jan 15 17:11:12 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:11:12 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:11:12 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_902709505.1_H1-003-0054-P-P ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:11:12 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:11:12 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:11:12 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Completed launcher | Fri Jan 15 17:11:34 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Fri Jan 15 17:11:34 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... processing FastANI-cluster results | Fri Jan 15 17:11:34 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... creating clusters | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... collecting results to summarize this iteration | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Cluster_size:	3	GCA_902709505.1_H1-003-0054-P-P
+DB_sizes:	11,12
+Remaining:	560
+%_clustered:	99.35
+Iteration completed | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... defining variables for iteration | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+___ GCA_013897255.1_ASM1389725v1 ___
+... checking if database chunk size limit was reached | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+... setting up Launcher job file | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+Starting launcher | Fri Jan 15 17:11:35 EST 2021 | atl1-1-02-020-28-l.pace.gatech.edu
+---------------------------------------
+Begin PBS Epilogue Fri Jan 15 17:11:48 EST 2021
+Job ID:     484279.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   dereplication
+Resources:  nodes=2:ppn=24,walltime=01:00:00,pmem=16000mb,neednodes=2:ppn=24
+Rsrc Used:  cput=00:00:09,vmem=766328kb,walltime=00:03:09,mem=5548kb,energy_used=0
+Queue:      embers
+Nodes:     
+atl1-1-02-020-27-l.pace.gatech.edu atl1-1-02-020-28-l.pace.gatech.edu
+End PBS Epilogue Fri Jan 15 17:11:48 EST 2021
+---------------------------------------

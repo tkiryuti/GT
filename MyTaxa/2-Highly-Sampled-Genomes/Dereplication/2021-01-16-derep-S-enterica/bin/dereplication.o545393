@@ -1,0 +1,376 @@
+---------------------------------------
+Begin PBS Prologue Sun Jan 17 09:06:30 EST 2021
+Job ID:     545393.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   dereplication
+Queue:      inferno
+End PBS Prologue Sun Jan 17 09:06:30 EST 2021
+---------------------------------------
+Initializing variables | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Launcher workdir: /storage/home/hcoda1/7/tkiryutina3/MyTaxa/dereplication/2021-01-16-derep-S-enterica
+Total number of genomes: 267954
+Starting first iteration | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_003761205.1_PDT000400361.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:06:33 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_003761205.1_PDT000400361.1
+DB_sizes:	3,4
+Remaining:	89
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_010696325.1_PDT000044807.3 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:06:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_010696325.1_PDT000044807.3
+DB_sizes:	3,4
+Remaining:	88
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_011410155.1_PDT000128484.2 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:06:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_011410155.1_PDT000128484.2
+DB_sizes:	3,4
+Remaining:	87
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_011224715.1_PDT000674387.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:06:57 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_011224715.1_PDT000674387.1
+DB_sizes:	3,4
+Remaining:	86
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_011220975.1_PDT000674179.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:05 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_011220975.1_PDT000674179.1
+DB_sizes:	3,4
+Remaining:	85
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:13 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:14 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_005588435.1_PDT000478752.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:14 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:14 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:14 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_005588435.1_PDT000478752.1
+DB_sizes:	3,4
+Remaining:	84
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:21 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:22 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_008952185.1_PDT000602445.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:22 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:22 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:22 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_008952185.1_PDT000602445.1
+DB_sizes:	3,4
+Remaining:	83
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:29 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007434035.1_PDT000471263.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:30 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:30 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:30 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:37 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:37 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:37 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:37 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:37 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:37 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_007434035.1_PDT000471263.1
+DB_sizes:	3,4
+Remaining:	82
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:38 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:38 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:38 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007820175.1_PDT000131953.3 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:38 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:38 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:38 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	4	GCA_007820175.1_PDT000131953.3
+DB_sizes:	3,4
+Remaining:	78
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007211255.1_PDT000332332.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:46 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_007211255.1_PDT000332332.1
+DB_sizes:	3,4
+Remaining:	77
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_010529175.1_PDT000222540.2 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:07:54 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_010529175.1_PDT000222540.2
+DB_sizes:	3,4
+Remaining:	76
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_009090165.1_PDT000604687.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:03 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:03 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_009090165.1_PDT000604687.1
+DB_sizes:	3,4
+Remaining:	75
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_003872055.1_PDT000367989.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:10 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:18 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:18 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:18 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:18 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:18 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:18 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_003872055.1_PDT000367989.1
+DB_sizes:	3,4
+Remaining:	74
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:19 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:19 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:19 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_011320835.1_PDT000635801.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:19 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:19 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:19 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	2	GCA_011320835.1_PDT000635801.1
+DB_sizes:	3,4
+Remaining:	72
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:26 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:27 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007768665.1_PDT000320970.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:27 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:27 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:27 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_007768665.1_PDT000320970.1
+DB_sizes:	2,3,4
+Remaining:	71
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_008742875.1_PDT000099721.4 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:34 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	1	GCA_008742875.1_PDT000099721.4
+DB_sizes:	2,3
+Remaining:	70
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:41 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:42 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_003877855.1_PDT000137257.2 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:42 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:42 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:42 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	2	GCA_003877855.1_PDT000137257.2
+DB_sizes:	2,3
+Remaining:	68
+%_clustered:	99.97
+Iteration completed | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:48 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007264195.1_PDT000342729.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:49 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	19	GCA_007264195.1_PDT000342729.1
+DB_sizes:	2,3
+Remaining:	49
+%_clustered:	99.98
+Iteration completed | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:08:55 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:08:56 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007474905.1_PDT000275426.2 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:08:56 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... setting up Launcher job file | Sun Jan 17 09:08:56 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Starting launcher | Sun Jan 17 09:08:56 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Completed launcher | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... checking success of all FastANI runs with Launcher | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... processing FastANI_para results | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... creating clusters | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... removing clutered genomes from reference genomes paths file | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... collecting results to summarize this iteration | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+Cluster_size:	2	GCA_007474905.1_PDT000275426.2
+DB_sizes:	2,3
+Remaining:	47
+%_clustered:	99.98
+Iteration completed | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+__________________________________________
+... splitting reference genome database into chunks | Sun Jan 17 09:09:02 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+... defining variables for iteration | Sun Jan 17 09:09:03 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+___ GCA_007843895.1_PDT000549638.1 ___
+... checking if database chunk size limit was reached | Sun Jan 17 09:09:03 EST 2021 | atl1-1-03-004-1-r.pace.gatech.edu
+
+Warning: one of the reference genome path files in tmp-ref-genomes has the number of lines less than or equal to the limit: 1.
+Completed clustering up to limit of parallelization (or up to other specified limit).
+Success. :) Exiting program.
+
+---------------------------------------
+Begin PBS Epilogue Sun Jan 17 09:09:03 EST 2021
+Job ID:     545393.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   dereplication
+Resources:  nodes=1:ppn=24,walltime=168:00:00,pmem=16000mb,neednodes=1:ppn=24
+Rsrc Used:  cput=00:00:15,vmem=535216kb,walltime=00:02:33,mem=3168kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-004-1-r.pace.gatech.edu
+End PBS Epilogue Sun Jan 17 09:09:03 EST 2021
+---------------------------------------

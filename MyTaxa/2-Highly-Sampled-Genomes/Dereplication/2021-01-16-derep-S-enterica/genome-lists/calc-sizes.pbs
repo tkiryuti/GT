@@ -1,0 +1,42 @@
+#PBS -N calc-sizes
+#PBS -A GT-ktk3-biocluster
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=1:00:00
+#PBS -l pmem=5gb
+#PBS -j oe
+#PBS -o genomes-1/out
+#PBS -m abe
+#PBS -M tkiryuti@gatech.edu
+#PBS -t 1-24
+
+cd $PBS_O_WORKDIR
+echo "Started on `/bin/hostname`"
+
+# ## Create the split inputs
+# # Input needed: genomes-1-quality-filtered-paths.txt
+# mkdir genomes-1
+# mkdir genomes-2
+# cd genomes-1
+# split --numeric-suffixes --suffix-length 2 -n l/24 ../genomes-1-quality-filtered-paths.txt
+# # Change input names
+# for file in x*; do new=${file/x/}; mv $file $new; done 2> /dev/null
+# for file in 0*; do new=${file/0/}; mv $file $new; done 2> /dev/null
+# mv 0 24
+# cd ..
+
+## Get size of each genome
+while read genome; do size=$(gzip -cd $genome | grep -v '^>' | tr -d '\n' | wc -m); \
+echo -e "${size}\t${genome}"; \
+done < "genomes-1/${PBS_ARRAYID}" > "genomes-2/${PBS_ARRAYID}"
+
+# ## Collect genome size results
+# cat genomes-2/* > genomes-2-sizes.tsv
+
+# ## Sort genomes by size
+# sort -nr genomes-2-sizes.tsv > genomes-3-sorted-sizes.tsv
+
+# ## Remove genome sizes to have an input file
+# sed 's/.*\t//' genomes-3-sorted-sizes.tsv > genomes-4-sorted-paths.txt
+
+# ## Count number of genomes in each file
+# wc -l genomes-*
