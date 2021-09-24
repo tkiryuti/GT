@@ -1,0 +1,115 @@
+---------------------------------------
+Begin PBS Prologue Tue Mar 23 17:54:34 EDT 2021
+Job ID:     1272552.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   cluster-prep
+Queue:      embers
+End PBS Prologue Tue Mar 23 17:54:34 EDT 2021
+---------------------------------------
+
+-----------------------------------------------------------------
+Species: Acinetobacter_baumannii
+Original number of genomes:	5559	Acinetobacter_baumannii
+Number of representatives:	224	Acinetobacter_baumannii
+
+-----------------------------------------------------------------
+Species: Campylobacter_coli
+Original number of genomes:	15034	Campylobacter_coli
+Number of representatives:	373	Campylobacter_coli
+
+-----------------------------------------------------------------
+Species: Campylobacter_jejuni
+Original number of genomes:	38068	Campylobacter_jejuni
+Number of representatives:	492	Campylobacter_jejuni
+
+-----------------------------------------------------------------
+Species: Clostridioides_difficile
+Original number of genomes:	3071	Clostridioides_difficile
+Number of representatives:	46	Clostridioides_difficile
+
+-----------------------------------------------------------------
+Species: Enterococcus_faecalis
+Original number of genomes:	2001	Enterococcus_faecalis
+Number of representatives:	117	Enterococcus_faecalis
+
+-----------------------------------------------------------------
+Species: Enterococcus_faecium
+Original number of genomes:	2367	Enterococcus_faecium
+Number of representatives:	86	Enterococcus_faecium
+
+-----------------------------------------------------------------
+Species: Helicobacter_pylori
+Original number of genomes:	2094	Helicobacter_pylori
+Number of representatives:	1454	Helicobacter_pylori
+
+-----------------------------------------------------------------
+Species: Klebsiella_pneumoniae
+Original number of genomes:	10970	Klebsiella_pneumoniae
+Number of representatives:	126	Klebsiella_pneumoniae
+
+-----------------------------------------------------------------
+Species: Listeria_monocytogenes
+Original number of genomes:	34513	Listeria_monocytogenes
+Number of representatives:	361	Listeria_monocytogenes
+
+-----------------------------------------------------------------
+Species: Mycobacterium_tuberculosis
+Original number of genomes:	6781	Mycobacterium_tuberculosis
+Number of representatives:	1	Mycobacterium_tuberculosis
+
+-----------------------------------------------------------------
+Species: Neisseria_meningitidis
+Original number of genomes:	2004	Neisseria_meningitidis
+Number of representatives:	151	Neisseria_meningitidis
+
+-----------------------------------------------------------------
+Species: Pseudomonas_aeruginosa
+Original number of genomes:	6169	Pseudomonas_aeruginosa
+Number of representatives:	115	Pseudomonas_aeruginosa
+
+-----------------------------------------------------------------
+Species: Shigella_flexneri
+Original number of genomes:	4898	Shigella_flexneri
+Number of representatives:	11	Shigella_flexneri
+
+-----------------------------------------------------------------
+Species: Shigella_sonnei
+Original number of genomes:	8955	Shigella_sonnei
+Number of representatives:	1	Shigella_sonnei
+
+-----------------------------------------------------------------
+Species: Staphylococcus_aureus
+Original number of genomes:	16788	Staphylococcus_aureus
+Number of representatives:	74	Staphylococcus_aureus
+
+-----------------------------------------------------------------
+Species: Staphylococcus_epidermidis
+Original number of genomes:	2313	Staphylococcus_epidermidis
+Number of representatives:	41	Staphylococcus_epidermidis
+
+-----------------------------------------------------------------
+Species: Streptococcus_pneumoniae
+Original number of genomes:	22623	Streptococcus_pneumoniae
+Number of representatives:	450	Streptococcus_pneumoniae
+
+-----------------------------------------------------------------
+Species: Streptococcus_pyogenes
+Original number of genomes:	2809	Streptococcus_pyogenes
+Number of representatives:	124	Streptococcus_pyogenes
+
+-----------------------------------------------------------------
+Species: Streptococcus_suis
+Original number of genomes:	2099	Streptococcus_suis
+Number of representatives:	290	Streptococcus_suis
+---------------------------------------
+Begin PBS Epilogue Tue Mar 23 17:58:40 EDT 2021
+Job ID:     1272552.sched-torque.pace.gatech.edu
+User ID:    tkiryutina3
+Job name:   cluster-prep
+Resources:  nodes=1:ppn=1,pmem=7gb,walltime=08:00:00,neednodes=1:ppn=1
+Rsrc Used:  cput=00:01:37,vmem=700932kb,walltime=00:04:06,mem=4336kb,energy_used=0
+Queue:      embers
+Nodes:     
+atl1-1-02-010-11-l.pace.gatech.edu
+End PBS Epilogue Tue Mar 23 17:58:40 EDT 2021
+---------------------------------------
