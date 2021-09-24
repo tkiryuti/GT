@@ -1,3 +1,8 @@
+## Downloading genomes from NCBI based on input list
+## Input: tab-separated file with species in col. 1 and ftp link in col 2.
+## Checks in .faa file already exists and downloads it if needed
+## If .faa file doesn't exist in database, download the .fna file and use Prodigal to predict it
+
 #PBS -N dl-genomes
 #PBS -j oe
 #PBS -l nodes=1:ppn=1

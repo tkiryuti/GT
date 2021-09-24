@@ -1,9 +1,13 @@
-#PBS -N rerun
+## First iteration of downloading genomes from NCBI
+## Only downloads .faa links that exist
+## Input file must be tab separated with species in column 1 and ftp link in column 2
+
+#PBS -N dl-genomes
 #PBS -j oe
 #PBS -l nodes=1:ppn=1
-#PBS -l walltime=3:00:00
+#PBS -l walltime=10:00:00:00
 #PBS -l pmem=5gb
-#PBS -q iw-shared-6
+#PBS -q biocluster-6
 # #PBS -m abe
 # #PBS -M tkiryuti@gatech.edu
 cd $PBS_O_WORKDIR
@@ -53,33 +57,11 @@ while read line; do
 		echo File already exists: "$faa_file"
 		continue # Make sure to go back to main directory at the beiginning of the loop
 	else
-		echo Downloading faa: "$ftpLink/$faa_file"
-		# Attempt download (for the last time)
+		echo Downloading: "$ftpLink/$faa_file"
+		# Attempt download or store for retry later
+		# If doesn't work, tell to retry
 		if ! curl -O "$ftpLink/$faa_file"; then
-			# If doesn't work, indicate that will try to get fna file
-			echo Protein DNE: "$line"
-		fi
-	fi
-
-	## If faa file doesn't exist, attempt to download fna file from ftp link
-	if [[ ! -s "$faa_file" ]] ; then
-		fna_file="$(basename $ftpLink)_genomic.fna.gz"
-		if ! curl -O "$ftpLink/$fna_file"; then
-			# If downloading genomic.fna doesn't work, indicate that need to retry
-			echo Retry genomic: "$line"
-		else
-			# This is the case that if the download works
-			echo Downloading fna: "$ftpLink/$fna_file"
-			# Check that the file exists and use prodigal
-			if [[ -s "$fna_file" ]]; then
-				echo Running Prodigal: "$line" 
-				faa_file_raw=$(basename "$faa_file" .gz)
-				# Write output of zipped file without changing it and redirect to prodigal
-				gzip -c -d "$fna_file" | prodigal -a "$faa_file_raw" -o /dev/null
-				gzip "$faa_file_raw"
-				# Clean up the fna file
-				rm "$fna_file"
-			fi
+			echo Retry: "$line"
 		fi
 	fi
 

@@ -1,0 +1,3 @@
+Downloading Genomes
+
+On August 19, 2020, each species name from the TypeMat MiGA database was searched against the NCBI Assembly Database using Entrez Direct to extract FTP links and associated species (Kans et al. 2013). The associated protein FASTA file (.faa) was downloaded and if not available, the corresponding nucleotide sequence file (.fna) was downloaded and predicted via Prodigal (Hyatt et al. 2010). For highly-sampled species (contain over 2,000 genomes) all nucleotide sequence files were downloaded for quality checking and dereplication, then the protein sequences of representatives only were extracted in a similar fashion for further clustering.

@@ -1,3 +1,8 @@
+## An exceptional case of downloading genomes that were too small for Prodigal to predict
+## There were 18 of these and eventually they were left out.
+## This script is similar to the .fna download, but checks if the prodigal command works
+## If the Prodigal command doesn't work, the .fna file is left for investigating later (and is not cleaned up)
+
 #PBS -N small-genomes
 #PBS -j oe
 #PBS -l nodes=1:ppn=1
