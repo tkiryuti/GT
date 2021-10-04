@@ -1,0 +1,13 @@
+#PBS -N 10_vs_10
+#PBS -l mem=20gb
+#PBS -e PBS_oe_0527/10_vs_10.e
+#PBS -o PBS_oe_0527/10_vs_10.o
+#PBS -l walltime=00:24:00:00
+#PBS -q microcluster
+cd $PBS_O_WORKDIR
+echo "Started on `/bin/hostname`"
+ 
+~/shared3/for-chirag/Tanya_FastANI/fastANI \
+--ql paths/mags_10.txt \
+--rl paths/mags_10.txt \
+-o Results/10_vs_10

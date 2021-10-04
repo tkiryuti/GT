@@ -1,0 +1,57 @@
+#!/bin/bash -vx
+
+### This script manually runs fastANI all vs all.
+### Required: full database sequences separated into multiple directories ("mags_1" "mags_2" etc.).
+
+#PBS -N all_vs_all        # Job name
+#PBS -e all_vs_all.e      # Standard error stream path
+#PBS -o all_vs_all.o      # Standard output stream path
+
+#PBS -l walltime=01:00:00:00        # Allow DD:HH:MM:SS of running (60 days max)
+#PBS -q microcluster                # For jobs of > 12 h
+#PBS -m abe                         # Send email for start, finish, error
+#PBS -M tkiryuti@gatech.edu
+cd $PBS_O_WORKDIR                   # Change to directory of pbs script
+echo "Started on `/bin/hostname`"   # Show where job begins execution
+
+mkdir Results
+mkdir PBS\_jobs
+mkdir PBS\_oe
+
+for dir in $(ls . | grep "mags_"); do
+	echo $dir >> job.ongoing
+done
+
+for input1 in $(ls . | grep "mags_"); do
+	n1=$(echo $input1 | sed 's/mags\_//') # Ex: "1"
+
+	for input2 in $(cat job.ongoing); do 
+		n2=$(echo $input2 | sed 's/mags\_//') # Ex: "2"
+		job=$n1\_vs\_$n2
+
+		echo "#PBS -N $job" >> PBS\_jobs/$job.pbs
+		echo "#PBS -e PBS_oe/$job.e" >> PBS\_jobs/$job.pbs
+		echo "#PBS -o PBS_oe/$job.o" >> PBS\_jobs/$job.pbs
+		echo "#PBS -l walltime=10:00:00:00" >> PBS\_jobs/$job.pbs
+		echo "#PBS -q microcluster" >> PBS\_jobs/$job.pbs
+		echo 'cd $PBS_O_WORKDIR' >> PBS\_jobs/$job.pbs
+		echo 'echo "Started on `/bin/hostname`"' >> PBS\_jobs/$job.pbs
+		echo " " >> PBS\_jobs/$job.pbs
+
+		echo '~/shared3/for-chirag/Tanya_FastANI/fastANI \' >> PBS\_jobs/$job.pbs
+		echo '--ql paths/'"$input1"'.txt \' >> PBS\_jobs/$job.pbs
+		echo '--rl paths/'"$input2"'.txt \' >> PBS\_jobs/$job.pbs
+		echo '-o Results/'$n1\_vs\_$n2 >> PBS\_jobs/$job.pbs
+
+		qsub PBS\_jobs/$job.pbs
+	done
+
+echo $input1 >> job.finished
+cat job.ongoing | grep -v $input1 > job.ongoing.temp
+rm job.ongoing
+mv job.ongoing.temp job.ongoing
+
+done
+
+rm job.ongoing
+

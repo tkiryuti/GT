@@ -1,0 +1,15 @@
+#PBS -N run_jobs        # Job name
+#PBS -e run_jobs.e      # Standard error stream path
+#PBS -o run_jobs.o      # Standard output stream path
+
+#PBS -l walltime=03:00:00           # Allow DD:HH:MM:SS of running (60 days max)
+#PBS -q microcluster                # For jobs of > 12 h
+#PBS -m abe                         # Send email for start, finish, error
+#PBS -M tkiryuti@gatech.edu
+cd $PBS_O_WORKDIR                   # Change to directory of pbs script
+echo "Started on `/bin/hostname`"   # Show where job begins execution
+
+
+for i in $(cat jobs.left1); do 
+	qsub 'PBS_jobs_all_0527/'$i
+done

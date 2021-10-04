@@ -1,0 +1,17 @@
+# miga_create.pbs
+
+#PBS -N miga_create         # Job name
+#PBS -e miga_create.e       # Standard error stream path
+#PBS -o miga_create.o       # Standard output stream path
+
+#PBS -l nodes=1:ppn=1              # Allocate nodes, processors per node (cores)
+#PBS -l mem=10gb                   # Allocate total memory (GB)
+#PBS -l walltime=2:00:00:00        # Allow DD:HH:MM:SS of running
+#PBS -q microcluster                # For jobs of > 12 h
+#PBS -m abe                         # Send email for start, finish, error
+#PBS -M tkiryuti@gatech.edu
+cd $PBS_O_WORKDIR                   # Change to directory of pbs script
+echo "Started on `/bin/hostname`"   # Show where job begins execution
+
+bash ./miga_create_all.sh
+

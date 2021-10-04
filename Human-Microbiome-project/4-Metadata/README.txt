@@ -1,0 +1,3 @@
+Retrieving geographical metadata
+
+The geographical metadata was collected for the 92,143 MAGs using Entrez Direct, which is an NCBI database search and information extraction tool for command line (Kans et al. 2013). The Sequence Read Archive (SRA) accessions from the prefix of the MAG IDs (for example, “SRR1761666” in “SRR1761666_bin_9”) were used to obtain the BioSample and BioProject accessions. The BioSample accessions were then used as inputs to obtaining the countries the metagenomic samples were collected from, and the BioProject accessions for the population descriptions of each study based on the abstracts or original publications.

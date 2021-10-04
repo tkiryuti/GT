@@ -1,0 +1,13 @@
+#PBS -N ncbi-metadata
+#PBS -l nodes=1:ppn=1
+#PBS -l pmem=1gb
+#PBS -l walltime=12:00:00
+#PBS -q microcluster
+#PBS -j oe
+cd $PBS_O_WORKDIR
+
+bash ncbi-metadata.sh -i sra-sample-proj.tsv -o proj-geoloc.tsv |& tee "ERRORS"
+
+### Parallel issue!!! "tmp-met/metadata.tmp" is conflicted between parallel processes
+# module load gnuparallel/20180822
+# parallel -I input bash tmp-ncbi-metadata.sh -i input -o input.tsv ::: xaa xab xac xad xae xaf

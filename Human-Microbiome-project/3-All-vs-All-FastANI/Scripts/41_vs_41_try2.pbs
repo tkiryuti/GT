@@ -1,0 +1,13 @@
+#PBS -N 41_vs_41_try2
+#PBS -l mem=20gb
+#PBS -e PBS_oe_0527/41_vs_41_try2.e
+#PBS -o PBS_oe_0527/41_vs_41_try2.o
+#PBS -l walltime=00:24:00:00
+#PBS -q microcluster
+cd $PBS_O_WORKDIR
+echo "Started on `/bin/hostname`"
+ 
+~/shared3/for-chirag/Tanya_FastANI/fastANI \
+--ql paths/mags_41.txt \
+--rl paths/mags_41.txt \
+-o Results/41_vs_41_try2

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Space check
+
+#PBS -N space_check        # Job name
+#PBS -e space_check.e      # Standard error stream path
+#PBS -o space_check.o      # Standard output stream path
+
+#PBS -l walltime=00:01:00:00        # Allow DD:HH:MM:SS of running
+#PBS -q iw-shared-6                 # For jobs < 12 h
+#PBS -m abe                         # Send email for start, finish, error
+#PBS -M tkiryuti@gatech.edu
+cd $PBS_O_WORKDIR                   # Change to directory of pbs script
+echo "Started on `/bin/hostname`"   # Show where job begins execution
+
+du -h -s *
+

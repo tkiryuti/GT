@@ -1,0 +1,30 @@
+# This PBS script retrieves MAGs from Almeida et al. (nature, 2018)
+# The public FTP has the 19,143 MAGs with QS > 50
+
+# Job name
+#PBS -N FTP_wget
+
+# I expect no more than HH:MM:SS of running
+#PBS -l walltime=10:00:00
+
+# Use for jobs of < 12 h
+#PBS -q iw-shared-6
+
+# Define path for standard error stream
+#PBS -e retrieve.e
+
+# Define path for standard output stream
+#PBS -o retrieve.o
+
+# Send email for start, finish, error
+#PBS -m abe
+#PBS -M tkiryuti@gatech.edu
+
+# Change to directory of pbs script
+cd $PBS_O_WORKDIR
+
+# Show where job begins execution
+echo "Started on `/bin/hostname`"
+
+# Run command wget -m (mirror) to get data from public FTP
+wget -m mags-gut_qs50.tar.gz ftp://ftp.ebi.ac.uk/pub/databases/metagenomics/umgs_analyses/
