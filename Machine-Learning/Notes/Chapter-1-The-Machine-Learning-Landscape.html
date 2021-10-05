@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base target="_blank">
+</head>
+<body link=#3d00e0 vlink=#3d00e0 alink=yellow>
+<style>
+	body {font-size: 17px; font-family: Times New Roman;}
+	body {background-color: #ccffff;}
+	body {margin: 2em;}
+	h2 {margin-left: 17px;}
+	h3 {margin-left: 17px; font-style: italic;}
+	h4 {margin-left: 17px; font-size: 1.17em;}
+	h5 {margin-left: 17px; font-style: italic; font-size: 1em;}
+	h6 {margin-left: 17px; font-size: 1em;}	
+	p  {margin-left: 51px;}
+	ul {margin-left: 51px;}
+	ol {margin-left: 51px;}
+	a {target="_blank"}
+	.border {border: 1px solid black; padding:1em; padding-left:2em; 
+		border-width: medium; border-color: Deeppink; border-style: dotted;
+		margin-top: 1em;}
+	.sep {border: 1px solid black; border-width: medium; border-color: Deeppink;
+		margin-left: 1em;
+		padding-left: 1em;
+		border-style: none;
+		border-left-style: dotted;}
+	.left_margin {margin-left: 51px;}
+	ul.main {margin-left: 1em;}
+	ol.main {margin-left: 1em;}
+	li.main {margin-left: 1em;}
+	ul.sepmain {margin-left: 2em;}
+	ol.sepmain {margin-left: 2em;}
+	li.sepmain {margin-left: 2em;}
+	ol.main li {font-weight:bold;}
+	li > p {font-weight:normal;}
+	ol.steps {margin-left: 0em;}
+</style>
+<!-- .sep addition for bottom part:
+		border-bottom-style: solid;
+		border-bottom-width: thin;}	
+-->
+<!--
+Links:
+	link: color of links,
+	vlink: color of visited links
+	alist: color of active link/color the link changes at the moment of clicking
+Fonts: Helvetica, Arial, Calibri
+-->
+
+<div class="border">
+	<h1>Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow</h1>
+	<h2 style="margin-left:0">Aurélien Géron</h2>
+	<h3 style="margin-left:0">2nd Edition, Early Release, Unedited (2019)</h3>
+</div>
+
+<h2>Main links</h2>
+<h4 style="font-weight:normal">
+	<ul class="main">
+		<li><a href="https://scikit-learn.org/stable/">Scikit-Learn</a> - machine learning algorithms</li>
+		<li><a href="https://www.tensorflow.org/">TensorFlow</a> - train and run very large neural networks</li>
+		<li><a href="https://keras.io/">Keras</a> - a high-level deep learning API</li>
+		<li><a href="https://github.com/ageron/handson-ml2">ageron's GitHub</a> - example code and solutions</li>
+	</ul>
+</h4>
+
+<h2>Python libraries</h2>
+<h4 style="font-weight:normal"> 
+	<ul class="main">
+		<li><a href="https://numpy.org/">NumPy</a> - scientific computing</li>
+		<li><a href="https://pandas.pydata.org/">Pandas</a> - data analysis and manipulation</li>
+		<li><a href="https://matplotlib.org/">Matplotlib</a> - visualizations</li>
+	</ul>
+</h4>
+
+<h2>Python review</h2>
+<h4 style="font-weight:normal">
+	<ul class="main">
+		<li><a href="https://www.learnpython.org/">learnpython.org</a> - interactive Python tutorial</li>
+		<li><a href="https://docs.python.org/3/tutorial/">python.org</a> - official Python documentation</li>
+	</ul>
+</h4>
+
+<h2>More resources</h2>
+<h4 style="font-weight:normal">
+	<ul class="main">
+		<li><a href="https://scikit-learn.org/stable/user_guide.html">Scikit-Learn User Guide</a> - machine learning guide</li>
+		<li><a href="https://www.kaggle.com/">Kaggle</a> - real-world problems</li>
+	</ul>
+</h4>
+
+<div class="border">
+	<h1>Chapter 1. The Machine Learning Landscape</h1>
+</div>
+
+<!-- Table of contents for Chapter 1 -->
+
+<h2><a href="#Ch1-Supervised-Unsupervised">Supervised and Unsupervised Learning</a></h2>
+<div class="sep">
+	<ul class="main"><b>
+		<li><a href="#Ch1-Supervised">Supervised learning</a></li>
+		<ul class="main"><i>
+			<li>Classification</li>
+			<li>Regression</li>
+			<li>Other important algorithms</li>
+		</i></ul>
+		<li><a href="#Ch1-Unsupervised">Unsupervised learning</a></li>
+		<ul class="main"><i>
+			<li>Important algorithms (e.g. clustering)</li>
+			<li>Visualization</li>
+			<li>Dimensionality reduction</li>
+			<li>Anomaly detection and novelty detection</li>
+			<li>Association rule learning</li>
+		</i></ul>
+		<li><a href="#Ch1-Semisupervised">Semisupervised learning</a></li>
+		<li><a href="#Ch1-Reinforcement">Reinforcement learning</a></li>
+		<ul class="main"><i>
+			<li>rewards and penalties</li>
+			<li>policy (best strategy)</li>
+		</i></ul>
+	</b></ul>
+</div>
+
+<h2><a href="#Ch1-Batch-Online">Batch and Online Learning</a></h2>
+<div class="sep">
+	<ul class="main"><b>
+		<li><a href="#Ch1-Batch">Batch learning</a></li>
+		<ul class="main"><i>
+			<li>Offline learning</li>
+		</i></ul>
+		<li><a href="#Ch1-Online">Online learning</a></li>
+		<ul class="main"><i>
+			<li>incremental</li>
+			<li>Out-of-core learning</li>
+			<li>Learning rate</li>
+		</i></ul>
+	</b></ul>
+</div>
+
+<h2><a href="#Ch1-Instance-Model">Instance-based and Model-based learning</a></h2>
+<div class="sep">
+	<ul class="main"><b>
+		<li><a href="#Ch1-Instance-based">Instance-based learning</a></li>
+		<ul class="main"><i>
+			<li>similarity measure</li>
+		</i></ul>
+		<li><a href="#Ch1-Model-based">Model-based learning</a></li>
+		<ul class="main"><i>
+			<li>Training - find model parameters</li>
+			<li>Utility function (fitness function)</li>
+			<li>Cost function - minimize</li>
+			<li>Inference - make predictions</li>
+		</i></ul>
+	</b></ul>
+</div>
+
+<h2><a href="#Ch1-Main-Challenges">Main Challenges of Machine Learning</a></h2>
+<div class="sep">
+	<ul class="main"><b>
+		<li><a href="#Ch1-Insufficient-Data">Insufficient Quantity of Training Data</a></li>
+		<li><a href="#Ch1-Nonrepresentative-Data">Nonrepresentative Training Data</a></li>
+		<ul class="main"><i>
+			<li>Sampling noise</li>
+			<li>Sampling bias</li>
+			<li>Nonresponse bias</li>
+		</i></ul>
+		<li><a href="#Ch1-Poor-Data">Poor-Quality Data</a></li>
+		<ul class="main"><i>
+			<li>Outliers</li>
+			<li>Missing features</li>
+		</i></ul>
+		<li><a href="#Ch1-Irrelevant-Features">Irrelevant Features</a></li>
+		<ul class="main"><i>
+			<li>Feature engineering</li>
+			<li>Feature selection</li>
+			<li>Feature extraction (dimensionality reduction)</li>
+			<li>More data</li>
+		</i></ul>
+		<li><a href="#Ch1-Overfitting">Overfitting the Training Data</a></li>
+		<ul class="main"><i>
+			<li>Regularization</li>
+			<li>Degrees of freedom</li>
+			<li>Hyperparameter</li>
+		</i></ul>
+		<li><a href="#Ch1-Underfitting">Underfitting the Training Data</a></li>
+		<ul class="main"><i>
+			<li>more parameters</li>
+			<li>feature engineering</li>
+			<li>reduce constraints</li>
+		</i></ul>
+	</b></ul>
+</div>
+
+<h2><a href="#Ch1-Testing-Validating">Testing and Validating</a></h2>
+<div class="sep">
+	<ul class="main"><b>
+		<li><a href="#Ch1-Testing-Validating">Main Terms</a></li>
+		<ul class="main"><i>
+			<li>Training set</li>
+			<li>Test set</li>
+			<li>Hold out (for testing)</li>
+			<li>Generalization error (out-of-sample error)</li>
+		</i></ul>
+		<li><a href="#Ch1-Hyperparameter">Hyperparameter Tuning and Model Selection</a></li>
+		<ul class="main"><i>
+			<li>Holdout validation</li>
+			<li>Validation set (development set / dev set)</li>
+			<li>Workflow with validation</li>
+			<li>Cross-validation</li>
+		</i></ul>
+		<li><a href="#Ch1-Data-Mismatch">Data Mismatch</a></li>
+		<ul class="main"><i>
+			<li>Train-dev set</li>
+			<li>No Free Lunch (NFL) Theorem</li>
+			<li>assumptions</li>
+		</i></ul>
+	</b></ul>
+</div>
+
+<!-- -->
+
+<div class="border">
+	<h1 id="Ch1-ML"><center>Types of Machine Learning Systems</center></h1>
+</div>
+
+<h3>Machine learning (ML)</h3>
+<p>Programming computers so they can learn from data</p>
+
+
+<div class="border">
+	<h2 id="Ch1-Supervised-Unsupervised"><center>Supervised and Unsupervised learning</center></h2>
+</div>
+
+<h3 id="Ch1-Supervised">Supervised learning</h3>
+<p>The training data you feed to the algorithm includes <i>labels</i> (the desired solutions).</p>
+
+<div class="sep">
+
+	<h5>Classification</h5>
+	<p>Example: model learns to classify new emails after it's trained with many example emails along with their <i>class</i> (spam or ham).</p>
+
+	<h5>Regression</h5>
+	<p>Predict a <i>target</i> numerical value given a set of <i>features</i> called <i>predictors</i>.</p>
+
+	<h5>Important supervised learning algorithms</h5>
+	<p>
+		<ul class="sepmain">
+			<li>k-Nearest Neighbors</li>
+			<li>Linear Regression</li>
+			<li>Logistic Regression</li>
+			<li>Support Vector Machines (SVMs)</li>
+			<li>Decision Trees and Random Forests</li>
+			<li>Neural networks (not all are supervised)</li>
+		</ul>
+	</p>
+
+</div>
+
+<h3 id="Ch1-Unsupervised">Unsupervised learning</h3>
+<p>The training data is unlabeled. The system tries to learn without a teacher.</p>
+
+<div class="sep">
+	
+	<h5>Important unsupervised learning algorithms</h5>
+	<p>
+		<ul class="sepmain">
+			<li>Clustering</li>
+			<li>Visualization and dimensionality reduction</li>
+			<li>Anomaly detection and novelty detection</li>
+			<li>Association rule learning</li>
+		</ul>
+	</p>
+
+	<h5>Visualization algorithms</h5>
+	<p>
+		Feed them a lot of complex and unlabeled data, and they output a 2D or 3D representation. This helps understand how data is organized and maybe identify unsuspected patterns.
+	</p>
+
+	<h5>Dimensionality reduction</h5>
+	<p>
+		Simplify the data without losing too much information. One way is <i>feature extraction</i>, to merge several correlated features into one. Running a dimensionality reduction algorithm on the training data first would often reduce computational resources required to run another ML algorithm.
+	</p>
+
+	<h5>Anomaly detection</h5>
+	<p>
+		Examples: detecting unusual credit card transactions, catching manufacturing defects, or automatically removing outliers from a dataset.
+	</p>
+
+	<h5>Novelty detection</h5>
+	<p>
+		<i>Novelty detection</i> algorithms expect to see only normal data during training. <i>Anomaly detection</i> algorithms often perform well with some outliers in the training set.
+	</p>
+
+	<h5>Association rule learning</h5>
+	<p>
+		Dig into large amounts of data and discover interesting relations between <i>attributes</i> (data types).
+	</p>
+
+</div>
+
+<h3 id="Ch1-Semisupervised">Semisupervised learning</h3>
+<p>The training data is partially labeled, usually with a lot of unlabeled data and a little bit of labeled data.</p>
+
+<div class="sep">
+	<p>
+		Example: Google Photos. The unsupervised portion is recognizing the same person in multiple photos (clustering). Once the system is told who these people are, they can be labeled in the photos.
+	</p>
+	<p>
+		Most semisupervised learning algorithms are combinations of unsupervised and supervised algorithms.
+	</p>
+</div>
+
+<h3 id="Ch1-Reinforcement">Reinforcement learning</h3>
+<p>
+	The learning system (<i>agent</i>) can observe the environment, select and perform actions, and get <i>rewards</i> or <i>penalties</i> in return. It must learn the the best strategy (<i>policy</i>) by itself to get the most reward over time.
+</p>
+<div class="sep">
+	<p>
+		For example: robots implement reinforcement learning algorithms to learn how to walk, or a robot beats the world champion in <i>Go</i>.
+	</p>
+</div>
+
+
+<div class="border">
+	<h2 id="Ch1-Batch-Online"><center>Batch and Online learning</center></h2>
+</div>
+
+<h3 id="Ch1-Batch">Batch learning</h3>
+<p>
+	The system is incapable of learning incrementally: it must be trained using all the available data. This can take up a lot of time and computing resources.
+</p>
+
+<div class="sep">
+	<h5>Offline learning</h5>
+	<p>
+		First the system is trained, then it is launched into production and runs without learning anymore.
+	</p>
+</div>
+
+<h3 id="Ch1-Online">Online learning</h3>
+<p>
+	Train the system incrementally by feeding it data instances sequentially, either individually or by <i>mini-batches</i>. This is great for:
+</p>
+
+<div class="sep">
+
+	<ul class="sepmain">
+		<li>systems that receive data as a continuous flow.</li>
+		<li>systems that need to adapt rapidly or autonomously.</li>
+		<li>if you have limited computing resources.</li>
+	</ul>
+	
+	<h5>Out-of-core learning</h5>
+	<p>
+		Training systems on huge datasets that cannot fit in one machine's main memory. This algorithm loads a part of the data, runs a training step, and repeats the process until it has run on all the data.
+	</p>
+
+	<h5>Learning rate</h5>
+	<p>
+		How fast online learning systems should adapt to changing data.
+		<ul>
+			<li>High learning rate - system will rapidly adapt to new data, and quickly forget the old data.</li>
+			<li>Low learning rate - system will learn more slowly, and be less sensitive to noise in the new data or outliers.</li>
+		</ul>
+	</p>
+
+</div>
+
+
+<div class="border">
+	<h2 id="Ch1-Instance-Model"><center>Instance-based and Model-based learning</center></h2>
+</div>
+
+<h3 id="Ch1-Instance-based">Instance-based learning</h3>
+<p>
+	The system learns the examples by heart, then generalizes to new cases by comparing them to learned examples using a <i>similarity measure</i>.
+</p>
+
+<div class="sep">
+	<p>
+		Example: classifying a new shape as the class that the majority of similar instances belong to.
+	</p>
+</div>
+
+<h3 id="Ch1-Model-based">Model-based learning</h3>
+<p>
+	Building a model of examples, then using that model to make <i>predictions</i>.
+</p>
+
+<div class="sep">
+
+	<ol class="main">
+		
+		<li><h5>Studying the data</h5></li>
+		<p>
+			Example: plot the data. It may be <i>noisy</i> (partly random).
+		</p>
+
+		<li><h5>Model selection</h5></li>
+		<p>
+			Example: based on the trend you see, select a linear model.
+		</p>
+
+		<li><h5>Training the model</h5></li>
+		<p>
+			Feed the algorithm training examples, and let it find <i>model parameters</i> that make the model fit best to the data. Specify a performance measure to find which values make the model perform best:
+		</p>
+		<p><i><b>Utility function (fitness function)</b></i> - measures how good the model is.</p>
+		<p><i><b>Cost function</b></i> - measures how bad the model is. The objective is to minimize it.</p>
+
+		<li><h5>Inference</h5></li>
+		<p>
+			Apply the model to make predictions on new cases, hoping that it will generalize well.
+		</p>
+
+	</ol>
+
+</div>
+
+
+<div class="border">
+	<h2 id="Ch1-Main-Challenges"><center>Main Challenges of Machine Learning</center></h2>
+</div>
+
+<!-- Bad Data -->
+
+<h4 id="Ch1-Insufficient-Data">Insufficient Quantity of Training Data</h4>
+<p>
+	Data may matter more than algorithms.
+</p>
+
+<h4 id="Ch1-Nonrepresentative-Data">Nonrepresentative Training Data</h4>
+<p>
+	Training set should be representative of the cases you want to generalize to.
+</p>
+
+<div class="sep">
+
+	<h5>Sampling noise</h5>
+	<p>
+		If the sample is too small, there will be nonrepresentative data as a result of chance.
+	</p>
+
+	<h5>Sampling bias</h5>
+	<p>
+		If the sampling method is flawed, even large samples can be nonrepresentative.
+	</p>
+
+	<h5>Nonresponse bias</h5>
+	<p>
+		Example: people who don't care much don't reply to a poll.
+	</p>
+
+</div>
+
+<h4 id="Ch1-Poor-Data">Poor-Quality Data</h4>
+<p>
+	Spend time cleaning up your data.
+</p>
+
+<div class="sep">
+	<ul class="sepmain">
+		<li>Disgard or fix clear outliers.</li>
+		<li>Decide what to do if instances are missing a few features. For example:</li>
+		<ul style="margin-left:0em">
+			<li>Ignore this attribute altogether</li>
+			<li>Ignore these instances</li>
+			<li>Fill in the missing values</li>
+			<li>Train one model with the feature and one model without it</li>
+		</ul>
+	</ul>
+</div>
+
+<h4 id="Ch1-Irrelevant-Features">Irrelevant Features</h4>
+<p>
+	Conduct <i><b>feature engineering</b></i>: come up with a good set of features to train on.
+</p>
+
+<div class="sep">
+	
+	<h5>Feature selection</h5>
+	<p>
+		Select the most useful features to train on among existing features.
+	</p>
+
+	<h5>Feature extraction</h5>
+	<p>
+		Combine existing features to produce a more useful one (ex: <i>dimensionality reduction</i>).
+	</p>
+
+	<h5>More data</h5>
+	<p>
+		Create new features by gathering new data.
+	</p>
+
+</div>
+
+<!-- Bad Algorithms -->
+
+<h4 id="Ch1-Overfitting"><i>Overfitting</i> the Training Data</h4>
+<p>
+	The model performs well on the training data, but it does not generalize well. You must find the right balance between fitting the training data well and generalizing well.
+</p>
+
+<div class="sep">
+	
+	<ul class="sepmain">
+		<li>Simplify the model to have fewer parameters (reduce the number of attributes or constrain the model).</li>
+		<li>Gather more training data.</li>
+		<li>Reduce the noise in the training data (fix data errors and remove outliers).</li>
+	</ul>
+
+	<h5>Regularization</h5>
+	<p>
+		Contraining a model to make it simpler and reduce the risk of overfitting.
+	</p>
+
+	<h5>Degrees of freedom</h5>
+	<ul class="sepmain">
+		<li>
+			Example 1: two parameters give the learning algorithm <u>two</u> degrees of freedom.
+		</li>
+		<li>
+			Example 2: if one of two parameters is forced to 0, the learning algorithm would have <u>one</u> degree of freedom and a simpler model.
+		</li>
+		<li>
+			Example 3: if one of two parameters is constrained to be small, the learning algorithm would have <u>somewhere between one and two</u> degrees of freedom. 
+		</li>
+	</ul>
+
+	<h5>Hyperparameter</h5>
+	<p>
+		A parameter of the learning algorithm, not the model. It is set prior to training.
+	</p>
+
+</div>
+
+<h4 id="Ch1-Underfitting"><i>Underfitting</i> the Training Data</h4>
+<p>
+	When the model is too simple to learn the underlying structure of the data. Predictions are inaccurate, even on the training data.
+</p>
+
+<div class="sep">
+	<ul class="sepmain">
+		<li>Select a model with more parameters.</li>
+		<li>Conduct <i>feature engineering</i>: feed better features to the learning algorithm.</li>
+		<li>Reduce the constraints on the model (e.g. the regularization hyperparameter).</li>
+	</ul>
+</div>
+
+
+<div class="border">
+	<h2 id="Ch1-Testing-Validating"><center>Testing and Validating</center></h2>
+</div>
+
+<div class="sep">
+
+	<h5>Training set</h5>
+	<p>
+		Set of data to train the model on.
+	</p>
+
+	<h5>Test set</h5>
+	<p>
+		Set of data for testing the model.
+	</p>
+
+	<h5>Hold out</h5>
+	<p>
+		It is common to use 80% of the data for training and <i>hold out</i> 20% for testing.
+	</p>
+	<ul>
+		<li>
+			For a very large dataset, holding out a smaller percentage may be enough to get a good estimate of the generalization error.
+		</li>
+	</ul>
+
+	<h5>Generalization error (out-of-sample error)</h5>
+	<p>
+		The error rate on new cases. Estimated by evaluating the model on the test set.
+	</p>
+	<ul>
+		<li>
+			If the training error is low but the generalization error is high, the model is overfitting the data.
+		</li>
+	</ul>
+
+</div>
+
+<h4 id="Ch1-Hyperparameter">Hyperparameter Tuning and Model Selection</h4>
+
+<div class="sep">
+	
+	<h5>Holdout validation</h5>
+	<p>
+		Hold out part of the training set to evaluate several candidate models and select the best one.
+	</p>
+
+	<h5>Validation set (development set / dev set)</h5>
+	<p>
+		The new heldout set. 
+	</p>
+
+	<h6>Workflow with <i>holdout validation</i></h6>
+	<ol>
+		<li>
+			Train multiple models with various hyperparameters on the <i>reduced training set</i> (full training set - vaildation set).
+		</li>
+		<li>
+			Select the model the performs best on the <i>validation set</i>.
+		</li>
+		<li>
+			Train the best model on the <i>full training set</i>.
+		</li>
+		<li>
+			Evaluate the final model on the <i>test set</i> to get an estimate of the <i>generalization error</i>.
+		</li>
+	</ol>
+
+	<h5>Cross-validation</h5>
+	<p>
+		Using many small validation sets. Each model is evaluated once per validation set after it is trained on the rest of the data. Finally, average out all the evaluations.
+	</p>
+
+</div>
+
+
+<h4 id="Ch1-Data-Mismatch">Data Mismatch</h4>
+<p>
+	Training data might not be representative of the data used in production.
+</p>
+
+<div class="sep">
+
+	<h5>Train-dev set</h5>
+	<p>
+		Example: you want a mobile app to detect pictures of flowers. Train a model on web pictures. If model performance on validation is not good, is it because of overfitting or mismatch between web and app pictures? 
+	</p>
+	<ul>
+		<li>Hold out web pictures (<i>train-dev set</i>).</li>
+		<li>If the model performs poorly on train-sev set, then it overfit the training set.</li>
+		<li>If the model performs well on train-dev set and poorly on validation set, there is a <i>data mismatch</i>.</li>
+	</ul>
+
+	<h5>No Free Lunch (NFL) Theorem</h5>
+	<p><i>
+		If you make absolutely no assumption about the data, then there is no reason to prefer one model over any other.</i>
+	</p>
+	<ul>
+		<li>The only way to know for sure which model is best is to evaluate them all (impossible).</li>
+		<li>In practice, you must make <i>assumptions</i> about the data and evaluate only a few reasonable models.</li>
+	</ul>
+
+</div>
+
+
+</body>
+</html>
