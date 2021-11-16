@@ -2,7 +2,7 @@
 
 ## Project-related code:
 
-#### MyTaxa-project
+#### <a href="https://github.com/tkiryuti/GT/tree/main/MyTaxa-project">MyTaxa-project</a>
 
 #### Human-Microbiome-project
 
