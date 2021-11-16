@@ -9,7 +9,7 @@ GT is a curated collection of scripts from my research at Georgia Tech with the 
 ## General code:
 
 #### PACE-cluster-utility-scripts
-* Big data management and a few example scripts for the Georgia Tech computer cluster.
+* Big data management and a few example scripts for the <a href="https://pace.gatech.edu/">Georgia Tech computer cluster</a>.
 
 #### Examples-general
 * Examples for Bash, R, and cloud computing-specific scripts.
