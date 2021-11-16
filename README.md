@@ -3,8 +3,10 @@
 ## Project-related code:
 
 #### <a href="https://github.com/tkiryuti/GT/tree/main/MyTaxa-project">MyTaxa-project</a>
+* Updating the <a href="http://enve-omics.ce.gatech.edu/mytaxa/">MyTaxa</a> internal database, requiring large-scale clustering.
 
 #### Human-Microbiome-project
+* Exploring gene content differences between gut microbiome samples from rich and poor locations due to obsereved genetic discontinuity.
 
 ## General code:
 
