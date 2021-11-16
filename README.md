@@ -1,4 +1,4 @@
-GT is a curated collection of scripts from my research at Georgia Tech with the Environmental Microbial Genomics Laboratory (https://enve-omics.gatech.edu/).
+**GT** is a curated collection of code from my bioinformatics research at Georgia Tech in the <a href="https://enve-omics.gatech.edu/">Environmental Microbial Genomics Laboratory</a>.
 
 ## Project-related code:
 
