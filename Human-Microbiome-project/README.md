@@ -9,5 +9,5 @@ In 2019, Almeida et al. reconstructed about 92,000 metagenome-assembled genomes 
 * Retrieving and parsing geographical metadata (<a href="https://www.ncbi.nlm.nih.gov/books/NBK179288/">Entrez Direct</a> & Bash)
 * Fisher's Exact Tests on geographical origin pairs
 * Sample selection (selecting metagenomes to compare based on community information found in publications)
-* Comparative metagenomics (SRA Toolkit, Simka)
-* Gene content diversity analysis
+* Comparative metagenomics (<a href="https://github.com/ncbi/sra-tools">SRA Toolkit</a>, <a href="https://github.com/GATB/simka">Simka</a>)
+* Gene content diversity analysis (<a href="https://github.com/cruizperez/MicrobeAnnotator">MicrobeAnnotator</a>)
