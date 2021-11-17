@@ -18,5 +18,5 @@
 
 ## Self-teaching:
 
-#### <a href="https://github.com/tkiryuti/GT/tree/main/Machine-Learning/Notes">Machine-Learning/Notes</a>
+#### <a href="https://github.com/tkiryuti/GT/tree/main/Machine-Learning-notes">Machine-Learning-notes</a>
 * HTML notes on the textbook: _Hands-On Machine Learning with Scikit-Learn and TensorFlow_ by Aurélien Géron.
