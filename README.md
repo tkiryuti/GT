@@ -6,7 +6,7 @@
 * Updating the <a href="http://enve-omics.ce.gatech.edu/mytaxa/">MyTaxa</a> internal database, requiring large-scale clustering.
 
 #### <a href="https://github.com/tkiryuti/GT/tree/main/Human-Microbiome-project">Human-Microbiome-project</a>
-* Exploring gene content differences between gut microbiome samples from rich and poor locations.
+* Exploring gene content differences between gut microbiomes from rich and poor locations.
 
 ## General code:
 
